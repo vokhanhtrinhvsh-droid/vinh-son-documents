@@ -1,0 +1,358 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Be Vietnam Pro', sans-serif;
+  --ifm-code-font-size: 90%;
+  
+  /* Primary color palette: Industrial Navy Blue */
+  --ifm-color-primary: #0f4c81;
+  --ifm-color-primary-dark: #0d4474;
+  --ifm-color-primary-darker: #0c406d;
+  --ifm-color-primary-darkest: #0a355a;
+  --ifm-color-primary-light: #11548e;
+  --ifm-color-primary-lighter: #125895;
+  --ifm-color-primary-lightest: #1565aa;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+
+  /* Custom styling variables */
+  --vs-electric-cyan: #328cc1;
+  --vs-safety-gold: #e2b13c;
+  --vs-gradient-hero: linear-gradient(135deg, #0b3c5d 0%, #1d2731 50%, #328cc1 100%);
+  --vs-card-bg: rgba(255, 255, 255, 0.7);
+  --vs-card-border: rgba(15, 76, 129, 0.1);
+  --vs-card-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.08);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* Electric Cyan / Tech Teal for dark mode */
+  --ifm-color-primary: #00adb5;
+  --ifm-color-primary-dark: #009ca3;
+  --ifm-color-primary-darker: #00939a;
+  --ifm-color-primary-darkest: #00797f;
+  --ifm-color-primary-light: #00bed7;
+  --ifm-color-primary-lighter: #00c7e0;
+  --ifm-color-primary-lightest: #00e0fb;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  
+  --vs-gradient-hero: linear-gradient(135deg, #041a2f 0%, #0c101b 50%, #00797f 100%);
+  --vs-card-bg: rgba(15, 23, 42, 0.6);
+  --vs-card-border: rgba(0, 173, 181, 0.15);
+  --vs-card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Navbar glassmorphism */
+.navbar {
+  background: var(--vs-card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--vs-card-border);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.hero-vinhson {
+  padding: 7rem 2rem;
+  background: linear-gradient(135deg, rgba(15, 76, 129, 0.45) 0%, rgba(12, 16, 27, 0.65) 100%), url('/img/vinhson_cover_new.png') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 4px solid var(--vs-electric-cyan);
+  box-shadow: 0 4px 20px rgba(50, 140, 193, 0.25);
+}
+
+[data-theme='dark'] .hero-vinhson {
+  background: linear-gradient(135deg, rgba(4, 26, 47, 0.55) 0%, rgba(12, 16, 27, 0.75) 100%), url('/img/vinhson_cover_new.png') no-repeat center center;
+  background-size: cover;
+  border-bottom: 4px solid #00adb5;
+  box-shadow: 0 4px 20px rgba(0, 173, 181, 0.2);
+}
+
+.hero-vinhson::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(circle at 75% 30%, rgba(0, 173, 181, 0.15) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.7), 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.5;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7), 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-hero-primary {
+  background: linear-gradient(90deg, #00adb5 0%, #328cc1 100%);
+  color: white !important;
+  border: none;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 173, 181, 0.4);
+}
+
+.btn-hero-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 173, 181, 0.6);
+  opacity: 0.95;
+}
+
+.btn-hero-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.btn-hero-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Dashboard Statistics Banner */
+.stats-banner {
+  background: var(--vs-card-bg);
+  border-bottom: 1px solid var(--vs-card-border);
+  padding: 1.5rem 0;
+  backdrop-filter: blur(10px);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--ifm-color-primary);
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+}
+
+/* Document Category Grid */
+.categories-section {
+  padding: 4.5rem 1.5rem;
+  background: var(--ifm-background-color);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: var(--ifm-heading-color);
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--ifm-color-primary);
+  margin: 0.8rem auto 0;
+  border-radius: 2px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category-card {
+  background: var(--vs-card-bg);
+  border: 1px solid var(--vs-card-border);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: var(--vs-card-shadow);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
+}
+
+.category-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+}
+
+.category-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: var(--ifm-heading-color);
+}
+
+.category-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+  flex-grow: 1;
+}
+
+.category-link {
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: gap 0.2s ease;
+}
+
+.category-card:hover .category-link {
+  gap: 0.8rem;
+}
+
+/* Quick Notice Banner on Homepage */
+.notice-section {
+  padding: 3rem 1.5rem;
+  background: rgba(15, 76, 129, 0.03);
+  border-top: 1px solid var(--vs-card-border);
+}
+
+.notice-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--vs-card-bg);
+  border: 1px solid var(--vs-card-border);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--vs-card-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.notice-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.notice-badge {
+  background: var(--vs-safety-gold);
+  color: #1d2731;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.notice-text {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Doc Page custom styling */
+.markdown h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  border-bottom: 2px solid var(--vs-card-border);
+  padding-bottom: 0.5rem;
+}
+
+.markdown h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.markdown h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Custom Admonitions / Alert styling */
+.theme-admonition {
+  border-radius: 10px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.3rem;
+  }
+  .hero-subtitle {
+    font-size: 1.15rem;
+  }
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
