@@ -1,0 +1,9 @@
+{
+  "label": "Hệ thống Trạm 110kV",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "slug": "he-thong-tram-110kv",
+    "description": "Các tài liệu về máy biến áp lực chính T1/T2, thiết bị đóng cắt sân phân phối 110kV và sơ đồ cấu hình bảo vệ rơ-le trạm."
+  }
+}
