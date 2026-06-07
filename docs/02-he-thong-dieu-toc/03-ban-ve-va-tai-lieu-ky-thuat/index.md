@@ -6,14 +6,6 @@ slug: ban-ve-va-tai-lieu-ky-thuat
 
 # 📋 BẢN VẼ VÀ TÀI LIỆU KỸ THUẬT
 
-Dưới đây là danh mục các bản vẽ thiết kế hoàn công, sơ đồ mạch nhị thứ, mạch logic và tài liệu kỹ thuật vận hành chi tiết của hệ thống điều tốc.
-
-:::tip Hướng dẫn tải tài liệu
-- Nhấp **[📥 Tải về]** để tải tệp tin PDF về máy tính cá nhân phục vụ nghiên cứu ngoại tuyến.
-:::
-
----
-
 ## 1. 📂 Sơ đồ & Bản vẽ Điều tốc
 
 | Tên tài liệu / Bản vẽ | Nội dung chi tiết | Thao tác |

@@ -4,223 +4,347 @@ title: HÌNH ẢNH THIẾT BỊ
 slug: hinh-anh-thiet-bi
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # 🖼️ HÌNH ẢNH THIẾT BỊ
 
-Dưới đây là sơ đồ nguyên lý hoạt động, tủ điều khiển, các van điện từ thừa hành và hình ảnh thiết bị thực tế của hệ thống điều tốc các tổ máy Nhà máy Thủy điện Vĩnh Sơn.
+Dưới đây là tủ điều khiển, các van điện từ thừa hành, hệ thống khí nén, van cầu và hình ảnh thiết bị thực tế của Nhà máy Thủy điện Vĩnh Sơn.
 
 ---
 
-## 1. Ảnh Tủ Điều tốc
+<Tabs defaultValue="control-panel">
+  <TabItem value="control-panel" label="Tủ Điều Tốc" default>
+    <div style={{ marginTop: '20px' }}>
+      <h3>Ảnh thực tế Tủ Điều tốc</h3>
+      <p>Sử dụng các tab bên dưới để chuyển đổi giữa các góc nhìn của tủ điều tốc:</p>
+      
+      <Tabs>
+        <TabItem value="front" label="Mặt trước tủ" default>
+          <div style={{ textAlign: 'center', padding: '10px' }}>
+            <img src="/img/anh_tu_dieu_toc_chu_thich.png" alt="Ảnh Tủ Điều tốc" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray' }}>Mặt trước tủ điều tốc với các chú thích thiết bị chính</p>
+          </div>
+        </TabItem>
+        <TabItem value="inside" label="Bên trong tủ">
+          <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap', padding: '10px' }}>
+            <div style={{ flex: '1 1 45%', minWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/anh_ben_trong_tu_dieu_toc_1.jpg" alt="Ảnh bên trong tủ điều tốc 1" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+              <p style={{ marginTop: '8px', fontStyle: 'italic', color: 'gray' }}>Bên trong tủ điều tốc (Góc nhìn 1)</p>
+            </div>
+            <div style={{ flex: '1 1 45%', minWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/anh_ben_trong_tu_dieu_toc_2.jpg" alt="Ảnh bên trong tủ điều tốc 2" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+              <p style={{ marginTop: '8px', fontStyle: 'italic', color: 'gray' }}>Bên trong tủ điều tốc (Góc nhìn 2)</p>
+            </div>
+          </div>
+        </TabItem>
+        <TabItem value="back" label="Mặt sau tủ">
+          <div style={{ textAlign: 'center', padding: '10px' }}>
+            <img src="/img/anh_mat_sau_tu_dieu_toc.jpg" alt="Ảnh mặt sau tủ điều tốc" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray' }}>Mặt sau tủ điều tốc</p>
+          </div>
+        </TabItem>
+      </Tabs>
+    </div>
+  </TabItem>
 
-### Ảnh mặt trước tủ điều tốc
+  <TabItem value="oil-accumulator" label="Bình Accu Dầu">
+    <div style={{ marginTop: '20px' }}>
+      <h3>Bình Accu Dầu Áp Lực</h3>
+      <div style={{ display: 'flex', gap: '30px', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '20px' }}>
+        <div style={{ flex: '1 1 300px', textAlign: 'center' }}>
+          <img src="/img/binh_accu_dau.jpg" alt="Bình accu dầu" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 6px 16px rgba(0,0,0,0.15)', marginBottom: '10px' }} />
+          <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Bình accu dầu áp lực thực tế</em>
+        </div>
+        <div style={{ flex: '2 2 400px', minWidth: '320px' }}>
+          <h4 style={{ marginBottom: '15px' }}>Thước đo hiển thị mức dầu & Logic bảo vệ DCS</h4>
+          <p>Trên bình Accu dầu áp lực có thước đo hiển thị các mức dầu và gửi tín hiệu về hệ thống DCS giám sát bảo vệ:</p>
+          <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '10px' }}>
+            <thead>
+              <tr style={{ borderBottom: '2px solid var(--ifm-color-emphasis-200)' }}>
+                <th style={{ padding: '10px', textAlign: 'center', width: '80px' }}>Mức</th>
+                <th style={{ padding: '10px', textAlign: 'left' }}>Mô tả & Logic điều khiển / Bảo vệ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style={{ borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                <td style={{ padding: '10px', textAlign: 'center' }}>
+                  <span style={{ padding: '4px 8px', borderRadius: '4px', backgroundColor: '#e53e3e', color: 'white', fontWeight: 'bold', fontSize: '0.85em', display: 'inline-block', minWidth: '45px' }}>ND</span>
+                </td>
+                <td style={{ padding: '10px' }}>
+                  <strong>Mức dầu quá cao.</strong> Nếu mức dầu <code>ND=1</code> thì hệ thống DCS sẽ lệnh <strong>dừng tổ máy</strong> theo sự cố cơ 5M.
+                </td>
+              </tr>
+              <tr style={{ borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                <td style={{ padding: '10px', textAlign: 'center' }}>
+                  <span style={{ padding: '4px 8px', borderRadius: '4px', backgroundColor: '#dd6b20', color: 'white', fontWeight: 'bold', fontSize: '0.85em', display: 'inline-block', minWidth: '45px' }}>DA</span>
+                </td>
+                <td style={{ padding: '10px' }}>
+                  <strong>Mức dầu cao.</strong> Mở van BI để nạp khí vào bình Accu dầu.
+                </td>
+              </tr>
+              <tr style={{ borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                <td style={{ padding: '10px', textAlign: 'center' }}>
+                  <span style={{ padding: '4px 8px', borderRadius: '4px', backgroundColor: '#3182ce', color: 'white', fontWeight: 'bold', fontSize: '0.85em', display: 'inline-block', minWidth: '45px' }}>DB</span>
+                </td>
+                <td style={{ padding: '10px' }}>
+                  <strong>Mức dầu xác lập</strong> sau khi đóng van cách ly. Sử dụng cho nhiều mục đích khác nhau trong chương trình DCS.
+                </td>
+              </tr>
+              <tr style={{ borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                <td style={{ padding: '10px', textAlign: 'center' }}>
+                  <span style={{ padding: '4px 8px', borderRadius: '4px', backgroundColor: '#38a169', color: 'white', fontWeight: 'bold', fontSize: '0.85em', display: 'inline-block', minWidth: '45px' }}>DC</span>
+                </td>
+                <td style={{ padding: '10px' }}>
+                  <strong>Mức dầu làm việc thích hợp (62 - 64 bar).</strong> Nếu mức dầu <code>DC=1</code> và kèm điều kiện khác thì DCS sẽ lệnh <strong>ngừng chạy động cơ bơm dầu không ưu tiên</strong>.
+                </td>
+              </tr>
+              <tr style={{ borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                <td style={{ padding: '10px', textAlign: 'center' }}>
+                  <span style={{ padding: '4px 8px', borderRadius: '4px', backgroundColor: '#d69e2e', color: 'white', fontWeight: 'bold', fontSize: '0.85em', display: 'inline-block', minWidth: '45px' }}>DD</span>
+                </td>
+                <td style={{ padding: '10px' }}>
+                  <strong>Mức dầu thấp.</strong> Nếu mức dầu <code>DD=1</code> và kèm điều kiện van cách ly bình Accu dầu mở thì DCS sẽ lệnh <strong>chạy động cơ bơm dầu không ưu tiên</strong>.
+                </td>
+              </tr>
+              <tr style={{ borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                <td style={{ padding: '10px', textAlign: 'center' }}>
+                  <span style={{ padding: '4px 8px', borderRadius: '4px', backgroundColor: '#718096', color: 'white', fontWeight: 'bold', fontSize: '0.85em', display: 'inline-block', minWidth: '45px' }}>DE</span>
+                </td>
+                <td style={{ padding: '10px' }}>
+                  <strong>Mức dầu dự phòng.</strong>
+                </td>
+              </tr>
+              <tr style={{ borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                <td style={{ padding: '10px', textAlign: 'center' }}>
+                  <span style={{ padding: '4px 8px', borderRadius: '4px', backgroundColor: '#9b2c2c', color: 'white', fontWeight: 'bold', fontSize: '0.85em', display: 'inline-block', minWidth: '45px' }}>NA</span>
+                </td>
+                <td style={{ padding: '10px' }}>
+                  <strong>Mức dầu quá thấp cấp 1.</strong> Nếu mức dầu <code>NA=1</code> thì hệ thống DCS sẽ lệnh <strong>dừng tổ máy</strong> theo sự cố cơ 5M.
+                </td>
+              </tr>
+              <tr style={{ borderBottom: '1px solid var(--ifm-color-emphasis-100)' }}>
+                <td style={{ padding: '10px', textAlign: 'center' }}>
+                  <span style={{ padding: '4px 8px', borderRadius: '4px', backgroundColor: '#822727', color: 'white', fontWeight: 'bold', fontSize: '0.85em', display: 'inline-block', minWidth: '45px' }}>NC</span>
+                </td>
+                <td style={{ padding: '10px' }}>
+                  <strong>Mức dầu quá thấp cấp 2.</strong> Nếu mức dầu <code>NC=1</code> thì hệ thống DCS sẽ lệnh <strong>đóng van cách ly BBF</strong> của bình Accu dầu áp lực và đồng thời <strong>dừng tổ máy</strong> theo sự cố cơ 5M.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </TabItem>
 
-![Ảnh Tủ Điều tốc](/img/anh_tu_dieu_toc_chu_thich.png)
+  <TabItem value="solenoid-valves" label="Các Van Điện Từ">
+    <div style={{ marginTop: '20px' }}>
+      <h3>Hệ thống các Van Điện Từ Thừa Hành</h3>
+      <p>Chọn van điện từ bên dưới để xem hình ảnh thực tế, nguyên lý quá trình hoạt động và mạch điện điều khiển chi tiết:</p>
+      
+      <Tabs>
+        <TabItem value="van-ba" label="Van BA" default>
+          <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
+            <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/van_dien_tu_ba.jpg" alt="Van điện từ BA" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+              <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BA thực tế</em>
+              <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
+                <div style={{ marginBottom: '4px' }}>📍 <strong>Vị trí:</strong> Tầng -3.9m</div>
+                <div>🔧 <strong>Nhiệm vụ:</strong> Điều khiển khống chế đóng mở kim phun và cánh hướng</div>
+              </div>
+            </div>
+            <div style={{ flex: '2 2 400px', minWidth: '300px' }}>
+              <h4>⚙️ Quá trình hoạt động:</h4>
+              <ul>
+                <li><strong>Khi van BA có điện:</strong> Đường dầu P sang A của van BA thông → cấp dầu áp lực tới chân Y của van 31A → piston van 31A dịch chuyển lên → đường dầu A sang T của van 31A thông nên dầu được dẫn về thùng chứa dầu → không có dầu áp lực tới chân L của các van BX1, BX2, BX3, BX4, BW → nhờ đó, piston của 5 van này mới có thể dịch chuyển lên xuống theo tín hiệu điều khiển từ tủ điều tốc → đóng mở bốn kim phun và cánh hướng.</li>
+                <li><strong>Khi van BA mất điện:</strong> Đường dầu P sang A của van BA không thông nhau → ngừng cấp dầu áp lực tới chân Y của van 31A → piston van 31A dịch chuyển xuống → đường dầu P sang A của van 31A thông nhau → dẫn dầu áp lực tới chân L của các van BX1, BX2, BX3, BX4, BW → làm đẩy piston của 5 van này lên → giúp đóng bốn kim phun và cánh hướng.</li>
+              </ul>
+              <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
+              <ul>
+                <li><strong>Mở van BA:</strong> Chương trình DCS tổ máy xuất tín hiệu tới kênh ch14 Modun A604 → rơle 769XR có điện và khép tiếp điểm → rơle 610XR có điện và khép tiếp điểm → cuộn dây của van BA có điện → làm hút lõi van BA dịch chuyển sang vị trí mở.</li>
+                <li><strong>Đóng van BA:</strong> Chương trình DCS tổ máy ngừng xuất tín hiệu tới kênh ch14 Modun A604 → rơle 769XR mất điện và mở tiếp điểm → rơle 610XR mất điện và mở tiếp điểm → cuộn dây của van BA mất điện → lò xo sẽ đẩy lõi van BA dịch chuyển sang vị trí đóng.</li>
+              </ul>
+            </div>
+          </div>
+        </TabItem>
 
----
+        <TabItem value="van-bb" label="Van BB">
+          <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
+            <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/van_dien_tu_bb.jpg" alt="Van điện từ BB" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+              <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BB thực tế</em>
+              <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
+                <div>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
+              </div>
+            </div>
+            <div style={{ flex: '2 2 400px', minWidth: '300px' }}>
+              <h4>⚙️ Quá trình hoạt động:</h4>
+              <ul>
+                <li><strong>Cuộn dây BBO có điện:</strong> Đường dầu A sang T của van BB thông nhau, dẫn dầu về thùng chứa dầu → piston của van 30D dịch chuyển xuống → giúp dầu trong bình Accu và dầu trong đường ống thông với nhau (tức là đưa bình Accu dầu vào làm việc).</li>
+                <li><strong>Cuộn dây BBF có điện:</strong> Đường dầu P sang A của van BB thông nhau → dẫn dầu áp lực làm đẩy piston của van 30D dịch chuyển lên → làm dầu trong bình Accu và dầu trong đường ống không còn thông với nhau (tức là bình Accu dầu ngừng vào làm việc).</li>
+              </ul>
+              <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
+              <ul>
+                <li><strong>Mở van BB:</strong> Chương trình DCS tổ máy xuất tín hiệu tới kênh ch7 Modun A604 → rơle 632XR có điện và khép tiếp điểm → cuộn dây của van BBO có điện → làm hút lõi van BB dịch chuyển sang vị trí mở.</li>
+                <li><strong>Đóng van BB:</strong> Chương trình DCS tổ máy xuất tín hiệu tới kênh ch8 Modun A604 → rơle 633XR có điện và khép tiếp điểm → cuộn dây của van BBF có điện → làm hút lõi van BB dịch chuyển sang vị trí đóng.</li>
+              </ul>
+            </div>
+          </div>
+        </TabItem>
 
-### Ảnh bên trong tủ điều tốc
+        <TabItem value="van-bd" label="Van BD">
+          <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
+            <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/van_dien_tu_bd.jpg" alt="Van điện từ BD" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+              <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BD thực tế</em>
+              <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
+                <div>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
+              </div>
+            </div>
+            <div style={{ flex: '2 2 400px', minWidth: '300px' }}>
+              <h4>⚙️ Quá trình hoạt động:</h4>
+              <ul>
+                <li><strong>Khi van BD có điện:</strong> Đường dầu P sang B của van BD thông nhau → dẫn dầu áp lực vào buồng mở servo 1T, đồng thời vào chân X của van 31T → piston van 31T dịch chuyển lên → đường dầu A sang T của van 31T thông nên dầu được dẫn về thùng chứa dầu. Đồng thời, khi dầu áp lực vào servo 1T → đẩy trục servo 1T dịch chuyển mở van ba ngã 45T → đường A sang T thông nhau, dẫn nước áp lực trong van seal hạ lưu van cầu ra ngoài → giúp mở van seal hạ lưu của van cầu.</li>
+                <li><strong>Khi van BD mất điện:</strong> Đường dầu P sang A của van BD thông nhau, đồng thời đường P sang A của van 31T thông → dẫn dầu áp lực vào buồng đóng servo 1T → đẩy trục servo 1T dịch chuyển đóng van ba ngã 45T → đường A sang P thông nhau, dẫn nước áp lực vào trong van seal hạ lưu → giúp đóng van seal hạ lưu của van cầu.</li>
+              </ul>
+              <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
+              <ul>
+                <li><strong>Mở van BD:</strong> Chương trình DCS tổ máy xuất tín hiệu tới kênh ch10 Modun A604 → rơle 635XR có điện và khép tiếp điểm → cuộn dây của van BD có điện → làm hút lõi van BD dịch chuyển sang vị trí mở.</li>
+                <li><strong>Đóng van BD:</strong> Chương trình DCS tổ máy ngừng xuất tín hiệu tới kênh ch10 Modun A604 → rơle 635XR mất điện và mở tiếp điểm → cuộn dây của van BD mất điện → lò xo sẽ đẩy lõi van BD dịch chuyển sang vị trí đóng.</li>
+              </ul>
+            </div>
+          </div>
+        </TabItem>
 
-![Ảnh bên trong tủ điều tốc 1](/img/anh_ben_trong_tu_dieu_toc_1.jpg)
+        <TabItem value="van-bf" label="Van BF">
+          <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
+            <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/van_dien_tu_bf.jpg" alt="Van điện từ BF" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+              <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BF thực tế</em>
+              <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
+                <div>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
+              </div>
+            </div>
+            <div style={{ flex: '2 2 400px', minWidth: '300px' }}>
+              <h4>⚙️ Quá trình hoạt động:</h4>
+              <ul>
+                <li><strong>Khi van BF có điện:</strong> Đường dầu P sang A của van BF thông nhau → dẫn dầu áp lực vào chân Y của van 30T → đẩy piston van 30T dịch chuyển lên → đường dầu P sang A của van 30T thông nên dầu áp lực vào buồng mở của servo 50T → đẩy trục servo 50T dịch chuyển lên → giúp mở van cầu.</li>
+                <li><strong>Khi van BF mất điện:</strong> Đường dầu A sang T của van BF thông nhau → dẫn dầu áp lực từ chân Y của van 30T về thùng chứa dầu → piston van 30T dịch chuyển xuống → đường dầu A sang T của van 30T thông nên dẫn dầu áp lực vào buồng mở của servo 50T về lại thùng chứa dầu → trục servo 50T dịch chuyển xuống → giúp đóng van cầu.</li>
+              </ul>
+              <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
+              <ul>
+                <li><strong>Mở van BF:</strong> Chương trình DCS tổ máy xuất tín hiệu tới kênh ch12 Modun A604 → rơle 767XR có điện và khép tiếp điểm → rơle 609XR có điện và khép tiếp điểm → cuộn dây của van BF có điện → làm hút lõi van BF dịch chuyển sang vị trí mở.</li>
+                <li><strong>Đóng van BF:</strong> Chương trình DCS tổ máy ngừng xuất tín hiệu tới kênh ch12 Modun A604 → rơle 767XR mất điện và mở tiếp điểm → rơle 609XR mất điện và mở tiếp điểm → cuộn dây của van BF mất điện → lò xo sẽ đẩy lõi van BF dịch chuyển sang vị trí đóng.</li>
+              </ul>
+            </div>
+          </div>
+        </TabItem>
 
-![Ảnh bên trong tủ điều tốc 2](/img/anh_ben_trong_tu_dieu_toc_2.jpg)
+        <TabItem value="van-bi" label="Van BI">
+          <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
+            <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/van_dien_tu_bi.jpg" alt="Van điện từ BI" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+              <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BI thực tế</em>
+              <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
+                <div>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
+              </div>
+            </div>
+            <div style={{ flex: '2 2 400px', minWidth: '300px' }}>
+              <h4>⚙️ Quá trình hoạt động:</h4>
+              <ul>
+                <li><strong>Khi van BI có điện:</strong> Khi mức dầu trong bình Accu dầu áp lực lên mức DA và kèm một số điều kiện khác, thì hệ thống DCS sẽ xuất tín hiệu cấp điện cho van BI → dẫn khí nén 80bar từ hệ thống khí nén vào bình Accu dầu áp lực.</li>
+                <li><strong>Khi van BI mất điện:</strong> Khi mức dầu trong bình Accu dầu áp lực không còn ở mức DA, thì hệ thống DCS sẽ ngừng xuất tín hiệu và van BI mất điện → ngừng dẫn khí nén 80bar từ hệ thống khí nén vào bình Accu dầu áp lực.</li>
+              </ul>
+              <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
+              <ul>
+                <li><strong>Mở van BI:</strong> Chương trình DCS tổ máy xuất tín hiệu tới kênh ch9 Modun A604 → rơle 634XR có điện và khép tiếp điểm → cuộn dây của van BI có điện → làm hút lõi van BI dịch chuyển sang vị trí mở.</li>
+                <li><strong>Đóng van BI:</strong> Chương trình DCS tổ máy ngừng xuất tín hiệu tới kênh ch9 Modun A604 → rơle 634XR mất điện và mở tiếp điểm → cuộn dây của van BI mất điện → lò xo sẽ đẩy lõi van BI dịch chuyển sang vị trí đóng.</li>
+              </ul>
+            </div>
+          </div>
+        </TabItem>
 
----
+        <TabItem value="van-bw" label="Van BW">
+          <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
+            <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/van_dien_tu_bw.jpg" alt="Van điện từ BW" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+              <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BW thực tế</em>
+              <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
+                <div style={{ marginBottom: '4px' }}>📍 <strong>Vị trí:</strong> Tầng -3.9m</div>
+                <div>🔧 <strong>Nhiệm vụ:</strong> Điều khiển đóng mở cánh hướng</div>
+              </div>
+            </div>
+            <div style={{ flex: '2 2 400px', minWidth: '300px' }}>
+              <h4>ℹ️ Thông tin chung & Nhiệm vụ:</h4>
+              <ul>
+                <li><strong>Loại van:</strong> ED 25SE, điện áp định mức 24VDC.</li>
+                <li><strong>Nhiệm vụ:</strong> Điều khiển đóng mở cánh hướng. Tùy vào độ lớn dòng điện cấp vào cuộn dây của van BW mà piston của van BW dịch chuyển lên xuống → dẫn dầu áp lực vào buồng đóng, buồng mở của servo cánh hướng → trục servo cánh hướng dịch chuyển vào, ra để điều khiển độ mở bốn cánh hướng của bốn kim phun.</li>
+              </ul>
+              <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
+              <ul>
+                <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 → cấp điện áp điều khiển tới bộ khếch đại tỷ lệ N02 → cấp dòng điện tới cuộn dây của van BW → piston của van BW dịch chuyển lên xuống.</li>
+              </ul>
+            </div>
+          </div>
+        </TabItem>
 
-### Ảnh mặt sau tủ điều tốc
+        <TabItem value="van-bx" label="Van BX">
+          <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
+            <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
+              <img src="/img/van_dien_tu_bx.jpg" alt="Van điện từ BX" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+              <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BX thực tế</em>
+              <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
+                <div style={{ marginBottom: '4px' }}>📍 <strong>Vị trí:</strong> Tầng -3.9m</div>
+                <div>🔧 <strong>Nhiệm vụ:</strong> Điều khiển đóng mở kim phun (gồm 4 bộ: BX1, BX2, BX3, BX4)</div>
+              </div>
+            </div>
+            <div style={{ flex: '2 2 400px', minWidth: '300px' }}>
+              <h4>ℹ️ Thông tin chung & Nhiệm vụ:</h4>
+              <ul>
+                <li><strong>Loại van:</strong> ED 12DE, điện áp định mức 24VDC.</li>
+                <li><strong>Nhiệm vụ:</strong> Điều khiển đóng mở bốn kim phun. Tùy vào độ lớn dòng điện cấp vào cuộn dây của van BX mà piston của van BX dịch chuyển lên xuống → dẫn dầu áp lực vào buồng đóng, buồng mở của kim phun → trục kim phun dịch chuyển vào, ra để điều khiển độ mở bốn kim phun.</li>
+              </ul>
+              <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
+              <ul>
+                <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 (đối với kim phun 1, 4) và A22 (đối với kim phun 2, 3) → cấp điện áp điều khiển tới bộ khếch đại tỷ lệ N01 (kim 1), N11 (kim 2), N12 (kim 3), N03 (kim 4) → cấp dòng điện tới cuộn dây của van BX1/BX2/BX3/BX4 → piston của van BX1/BX2/BX3/BX4 dịch chuyển lên xuống.</li>
+              </ul>
+            </div>
+          </div>
+        </TabItem>
+      </Tabs>
+    </div>
+  </TabItem>
 
-![Ảnh mặt sau tủ điều tốc](/img/anh_mat_sau_tu_dieu_toc.jpg)
+  <TabItem value="compressor-system" label="Hệ Thống Khí Nén">
+    <div style={{ marginTop: '20px' }}>
+      <h3>Ảnh thực tế Hệ thống Khí nén</h3>
+      <p>Sử dụng các tab bên dưới để chuyển đổi giữa các góc nhìn của hệ thống khí nén:</p>
+      
+      <Tabs>
+        <TabItem value="compressor-eq" label="Hệ thống khí nén" default>
+          <div style={{ textAlign: 'center', padding: '10px' }}>
+            <img src="/img/he_thong_khi_nen.jpg" alt="Hệ thống khí nén" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray' }}>Hệ thống khí nén thực tế</p>
+          </div>
+        </TabItem>
+        <TabItem value="compressor-panel" label="Bảng điều khiển">
+          <div style={{ textAlign: 'center', padding: '10px' }}>
+            <img src="/img/bang_dieu_khien_he_thong_khi_nen.jpg" alt="Bảng điều khiển hệ thống khí nén" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray' }}>Bảng điều khiển hệ thống khí nén thực tế</p>
+          </div>
+        </TabItem>
+      </Tabs>
+    </div>
+  </TabItem>
 
----
-
-## 2. Sơ đồ Hệ thống Dầu Thủy lực
-
-Bản vẽ chi tiết sơ đồ hệ thống dầu thủy lực điều tốc thực tế tại Nhà máy Thủy điện Vĩnh Sơn:
-
-![Sơ đồ hệ thống dầu thủy lực](/img/so_do_he_thong_thuc_te.png)
-
----
-
-## 3. Bình accu dầu
-
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1 1 250px', minWidth: '200px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/binh_accu_dau.jpg" alt="Bình accu dầu" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
-    <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Bình accu dầu áp lực</em>
-  </div>
-  <div style={{ flex: '2 2 300px', minWidth: '250px' }}>
-    <strong>- Các mức dầu trong bình Accu:</strong>
-    <ul>
-      <li><strong>MỨC ND:</strong> TOO HIGHT</li>
-      <li><strong>MỨC DA:</strong> HIGHT</li>
-      <li><strong>MỨC DB:</strong> REACHD</li>
-      <li><strong>MỨC DC:</strong> NORMAL</li>
-      <li><strong>MỨC DD:</strong> INADEQ</li>
-      <li><strong>MỨC NA:</strong> LOW LEVEL 1ST</li>
-      <li><strong>MỨC NC:</strong> LOW LEVEL 2ST</li>
-    </ul>
-  </div>
-</div>
-
----
-
-## 4. Các van điện từ
-
-### a) Van điện từ BA
-
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1 1 250px', minWidth: '200px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_ba.jpg" alt="Van điện từ BA" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
-    <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van điện từ BA</em>
-  </div>
-  <div style={{ flex: '2 2 400px', minWidth: '300px', textAlign: 'justify' }}>
-    <strong>- Quá trình hoạt động:</strong>
-    <ul>
-      <li><strong>Khi van BA có điện:</strong> đường dầu P sang A của van BA thông → cấp dầu áp lực tới chân Y của van 31A → piston van 31A dịch chuyển lên → đường dầu A sang T của van 31A thông nên dầu được dẫn về thùng chứa dầu → không có dầu áp lực tới chân L của các van BX1, BX2, BX3, BX4, BW → nhờ đó, piston của 5 van này mới có thể dịch chuyển lên xuống theo tín hiệu điều khiển từ tủ điều tốc → đóng mở bốn kim phun và cánh hướng.</li>
-      <li><strong>Khi van BA mất điện:</strong> đường dầu P sang A của van BA không thông nhau → ngừng cấp dầu áp lực tới chân Y của van 31A → piston van 31A dịch chuyển xuống → đường dầu P sang A của van 31A thông nhau → dẫn dầu áp lực tới chân L của các van BX1, BX2, BX3, BX4, BW → làm đẩy piston của 5 van này lên → giúp đóng bốn kim phun và cánh hướng.</li>
-    </ul>
-    <strong>- Mạch điện điều khiển:</strong>
-    <ul>
-      <li><strong>Mở van BA:</strong> chương trình DCS tổ máy xuất tín hiệu tới kênh ch14 Modun A604 → rơle 769XR có điện và khép tiếp điểm → rơle 610XR có điện và khép tiếp điểm → cuộn dây của van BA có điện → làm hút lõi van BA dịch chuyển sang vị trí mở.</li>
-      <li><strong>Đóng van BA:</strong> chương trình DCS tổ máy ngừng xuất tín hiệu tới kênh ch14 Modun A604 → rơle 769XR mất điện và mở tiếp điểm → rơle 610XR mất điện và mở tiếp điểm → cuộn dây của van BA mất điện → lò xo sẽ đẩy lõi van BA dịch chuyển sang vị trí đóng.</li>
-    </ul>
-  </div>
-</div>
-
----
-
-### b) Van điện từ BB
-
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1 1 250px', minWidth: '200px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bb.jpg" alt="Van điện từ BB" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
-    <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van điện từ BB</em>
-  </div>
-  <div style={{ flex: '2 2 400px', minWidth: '300px', textAlign: 'justify' }}>
-    <strong>- Quá trình hoạt động:</strong>
-    <ul>
-      <li><strong>Cuộn dây BBO có điện:</strong> đường dầu A sang T của van BB thông nhau, dẫn dầu về thùng chứa dầu → piston của van 30D dịch chuyển xuống → giúp dầu trong bình Accu và dầu trong đường ống thông với nhau (tức là đưa bình Accu dầu vào làm việc).</li>
-      <li><strong>Cuộn dây BBF có điện:</strong> đường dầu P sang A của van BB thông nhau → dẫn dầu áp lực làm đẩy piston của van 30D dịch chuyển lên → làm dầu trong bình Accu và dầu trong đường ống không còn thông với nhau (tức là bình Accu dầu ngừng vào làm việc).</li>
-    </ul>
-    <strong>- Mạch điện điều khiển:</strong>
-    <ul>
-      <li><strong>Mở van BB:</strong> chương trình DCS tổ máy xuất tín hiệu tới kênh ch7 Modun A604 → rơle 632XR có điện và khép tiếp điểm → cuộn dây của van BBO có điện → làm hút lõi van BB dịch chuyển sang vị trí mở.</li>
-      <li><strong>Đóng van BB:</strong> chương trình DCS tổ máy xuất tín hiệu tới kênh ch8 Modun A604 → rơle 633XR có điện và khép tiếp điểm → cuộn dây của van BBF có điện → làm hút lõi van BB dịch chuyển sang vị trí đóng.</li>
-    </ul>
-  </div>
-</div>
-
----
-
-### c) Van điện từ BD
-
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1 1 250px', minWidth: '200px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bd.jpg" alt="Van điện từ BD" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
-    <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van điện từ BD</em>
-  </div>
-  <div style={{ flex: '2 2 400px', minWidth: '300px', textAlign: 'justify' }}>
-    <strong>- Quá trình hoạt động:</strong>
-    <ul>
-      <li><strong>Khi van BD có điện:</strong> đường dầu P sang B của van BD thông nhau → dẫn dầu áp lực vào buồng mở servo 1T, đồng thời vào chân X của van 31T → piston van 31T dịch chuyển lên → đường dầu A sang T của van 31T thông nên dầu được dẫn về thùng chứa dầu. Đồng thời, khi dầu áp lực vào servo 1T → đẩy trục servo 1T dịch chuyển mở van ba ngã 45T → đường A sang T thông nhau, dẫn nước áp lực trong van seal hạ lưu van cầu ra ngoài → giúp mở van seal hạ lưu của van cầu.</li>
-      <li><strong>Khi van BD mất điện:</strong> đường dầu P sang A của van BD thông nhau, đồng thời đường P sang A của van 31T thông → dẫn dầu áp lực vào buồng đóng servo 1T → đẩy trục servo 1T dịch chuyển đóng van ba ngã 45T → đường A sang P thông nhau, dẫn nước áp lực vào trong van seal hạ lưu → giúp đóng van seal hạ lưu của van cầu.</li>
-    </ul>
-    <strong>- Mạch điện điều khiển:</strong>
-    <ul>
-      <li><strong>Mở van BD:</strong> chương trình DCS tổ máy xuất tín hiệu tới kênh ch10 Modun A604 → rơle 635XR có điện và khép tiếp điểm → cuộn dây của van BD có điện → làm hút lõi van BD dịch chuyển sang vị trí mở.</li>
-      <li><strong>Đóng van BD:</strong> chương trình DCS tổ máy ngừng xuất tín hiệu tới kênh ch10 Modun A604 → rơle 635XR mất điện và mở tiếp điểm → cuộn dây của van BD mất điện → lò xo sẽ đẩy lõi van BD dịch chuyển sang vị trí đóng.</li>
-    </ul>
-  </div>
-</div>
-
----
-
-### d) Van điện từ BF
-
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1 1 250px', minWidth: '200px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bf.jpg" alt="Van điện từ BF" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
-    <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van điện từ BF</em>
-  </div>
-  <div style={{ flex: '2 2 400px', minWidth: '300px', textAlign: 'justify' }}>
-    <strong>- Quá trình hoạt động:</strong>
-    <ul>
-      <li><strong>Khi van BF có điện:</strong> đường dầu P sang A của van BF thông nhau → dẫn dầu áp lực vào chân Y của van 30T → đẩy piston van 30T dịch chuyển lên → đường dầu P sang A của van 30T thông nên dầu áp lực vào buồng mở của servo 50T → đẩy trục servo 50T dịch chuyển lên → giúp mở van cầu.</li>
-      <li><strong>Khi van BF mất điện:</strong> đường dầu A sang T của van BF thông nhau → dẫn dầu áp lực từ chân Y của van 30T về thùng chứa dầu → piston van 30T dịch chuyển xuống → đường dầu A sang T của van 30T thông nên dẫn dầu áp lực vào buồng mở của servo 50T về lại thùng chứa dầu → trục servo 50T dịch chuyển xuống → giúp đóng van cầu.</li>
-    </ul>
-    <strong>- Mạch điện điều khiển:</strong>
-    <ul>
-      <li><strong>Mở van BF:</strong> chương trình DCS tổ máy xuất tín hiệu tới kênh ch12 Modun A604 → rơle 767XR có điện và khép tiếp điểm → rơle 609XR có điện và khép tiếp điểm → cuộn dây của van BF có điện → làm hút lõi van BF dịch chuyển sang vị trí mở.</li>
-      <li><strong>Đóng van BF:</strong> chương trình DCS tổ máy ngừng xuất tín hiệu tới kênh ch12 Modun A604 → rơle 767XR mất điện và mở tiếp điểm → rơle 609XR mất điện và mở tiếp điểm → cuộn dây của van BF mất điện → lò xo sẽ đẩy lõi van BF dịch chuyển sang vị trí đóng.</li>
-    </ul>
-  </div>
-</div>
-
----
-
-### e) Van điện từ BI
-
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1 1 250px', minWidth: '200px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bi.jpg" alt="Van điện từ BI" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
-    <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van điện từ BI</em>
-  </div>
-  <div style={{ flex: '2 2 400px', minWidth: '300px', textAlign: 'justify' }}>
-    <strong>- Quá trình hoạt động:</strong>
-    <ul>
-      <li><strong>Khi van BI có điện:</strong> khi mức dầu trong bình Accu dầu áp lực lên mức DA và kèm một số điều kiện khác, thì hệ thống DCS sẽ xuất tín hiệu cấp điện cho van BI → dẫn khí nén 80bar từ hệ thống khí nén vào bình Accu dầu áp lực.</li>
-      <li><strong>Khi van BI mất điện:</strong> khi mức dầu trong bình Accu dầu áp lực không còn ở mức DA, thì hệ thống DCS sẽ ngừng xuất tín hiệu và van BI mất điện → ngừng dẫn khí nén 80bar từ hệ thống khí nén vào bình Accu dầu áp lực.</li>
-    </ul>
-    <strong>- Mạch điện điều khiển:</strong>
-    <ul>
-      <li><strong>Mở van BI:</strong> chương trình DCS tổ máy xuất tín hiệu tới kênh ch9 Modun A604 → rơle 634XR có điện và khép tiếp điểm → cuộn dây của van BI có điện → làm hút lõi van BI dịch chuyển sang vị trí mở.</li>
-      <li><strong>Đóng van BI:</strong> chương trình DCS tổ máy ngừng xuất tín hiệu tới kênh ch9 Modun A604 → rơle 634XR mất điện và mở tiếp điểm → cuộn dây của van BI mất điện → lò xo sẽ đẩy lõi van BI dịch chuyển sang vị trí đóng.</li>
-    </ul>
-  </div>
-</div>
-
----
-
-### f) Van điện từ BW
-
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1 1 250px', minWidth: '200px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bw.jpg" alt="Van điện từ BW" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
-    <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van điện từ BW</em>
-  </div>
-  <div style={{ flex: '2 2 400px', minWidth: '300px', textAlign: 'justify' }}>
-    <strong>- Thông tin chung & Nhiệm vụ:</strong>
-    <ul>
-      <li><strong>Loại van:</strong> ED 25SE, điện áp định mức 24VDC.</li>
-      <li><strong>Nhiệm vụ:</strong> Điều khiển đóng mở cánh hướng. Tùy vào độ lớn dòng điện cấp vào cuộn dây của van BW mà piston của van BW dịch chuyển lên xuống → dẫn dầu áp lực vào buồng đóng, buồng mở của servo cánh hướng → trục servo cánh hướng dịch chuyển vào, ra để điều khiển độ mở bốn cánh hướng của bốn kim phun.</li>
-    </ul>
-    <strong>- Mạch điện điều khiển:</strong>
-    <ul>
-      <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 → cấp điện áp điều khiển tới bộ khếch đại tỷ lệ N02 → cấp dòng điện tới cuộn dây của van BW → piston của van BW dịch chuyển lên xuống.</li>
-    </ul>
-  </div>
-</div>
-
----
-
-### g) Van điện từ BX
-
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1 1 250px', minWidth: '200px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bx.jpg" alt="Van điện từ BX" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
-    <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van điện từ BX</em>
-  </div>
-  <div style={{ flex: '2 2 400px', minWidth: '300px', textAlign: 'justify' }}>
-    <strong>- Thông tin chung & Nhiệm vụ:</strong>
-    <ul>
-      <li><strong>Loại van:</strong> ED 12DE, điện áp định mức 24VDC.</li>
-      <li><strong>Nhiệm vụ:</strong> Điều khiển đóng mở bốn kim phun. Tùy vào độ lớn dòng điện cấp vào cuộn dây của van BX mà piston của van BX dịch chuyển lên xuống → dẫn dầu áp lực vào buồng đóng, buồng mở của kim phun → trục kim phun dịch chuyển vào, ra để điều khiển độ mở bốn kim phun.</li>
-    </ul>
-    <strong>- Mạch điện điều khiển:</strong>
-    <ul>
-      <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 (đối với kim phun 1, 4) và A22 (đối với kim phun 2, 3) → cấp điện áp điều khiển tới bộ khếch đại tỷ lệ N01 (kim 1), N11 (kim 2), N12 (kim 3), N03 (kim 4) → cấp dòng điện tới cuộn dây của van BX1/BX2/BX3/BX4 → piston của van BX1/BX2/BX3/BX4 dịch chuyển lên xuống.</li>
-    </ul>
-  </div>
-</div>
-
-
-
+  <TabItem value="globe-valve" label="Van Cầu">
+    <div style={{ marginTop: '20px', textAlign: 'center' }}>
+      <h3>Ảnh thực tế Van Cầu</h3>
+      <div style={{ maxWidth: '600px', margin: '0 auto', padding: '10px' }}>
+        <img src="/img/van_cau.png" alt="Van cầu" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 6px 16px rgba(0,0,0,0.15)', marginBottom: '10px' }} />
+        <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van cầu thực tế</em>
+      </div>
+    </div>
+  </TabItem>
+</Tabs>
