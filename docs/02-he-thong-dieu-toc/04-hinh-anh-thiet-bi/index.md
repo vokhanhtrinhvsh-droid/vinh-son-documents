@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: HÌNH ẢNH THIẾT BỊ
 slug: hinh-anh-thiet-bi
+pagination_prev: null
+pagination_next: null
 ---
 
 import Tabs from '@theme/Tabs';
@@ -9,39 +11,42 @@ import TabItem from '@theme/TabItem';
 
 # 🖼️ HÌNH ẢNH THIẾT BỊ
 
-Dưới đây là tủ điều khiển, các van điện từ thừa hành, hệ thống khí nén, van cầu và hình ảnh thiết bị thực tế của Nhà máy Thủy điện Vĩnh Sơn.
+
 
 ---
 
 <Tabs defaultValue="control-panel">
   <TabItem value="control-panel" label="Tủ Điều Tốc" default>
     <div style={{ marginTop: '20px' }}>
-      <h3>Ảnh thực tế Tủ Điều tốc</h3>
-      <p>Sử dụng các tab bên dưới để chuyển đổi giữa các góc nhìn của tủ điều tốc:</p>
+
       
       <Tabs>
         <TabItem value="front" label="Mặt trước tủ" default>
           <div style={{ textAlign: 'center', padding: '10px' }}>
             <img src="/img/anh_tu_dieu_toc_chu_thich.png" alt="Ảnh Tủ Điều tốc" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
-            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray' }}>Mặt trước tủ điều tốc với các chú thích thiết bị chính</p>
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Mặt trước tủ điều tốc với các chú thích thiết bị chính</p>
+            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng 0.0m</div>
           </div>
         </TabItem>
         <TabItem value="inside" label="Bên trong tủ">
           <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap', padding: '10px' }}>
             <div style={{ flex: '1 1 45%', minWidth: '300px', textAlign: 'center' }}>
               <img src="/img/anh_ben_trong_tu_dieu_toc_1.jpg" alt="Ảnh bên trong tủ điều tốc 1" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
-              <p style={{ marginTop: '8px', fontStyle: 'italic', color: 'gray' }}>Bên trong tủ điều tốc (Góc nhìn 1)</p>
+              <p style={{ marginTop: '8px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Bên trong tủ điều tốc (Góc nhìn 1)</p>
+              <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng 0.0m</div>
             </div>
             <div style={{ flex: '1 1 45%', minWidth: '300px', textAlign: 'center' }}>
               <img src="/img/anh_ben_trong_tu_dieu_toc_2.jpg" alt="Ảnh bên trong tủ điều tốc 2" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
-              <p style={{ marginTop: '8px', fontStyle: 'italic', color: 'gray' }}>Bên trong tủ điều tốc (Góc nhìn 2)</p>
+              <p style={{ marginTop: '8px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Bên trong tủ điều tốc (Góc nhìn 2)</p>
+              <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng 0.0m</div>
             </div>
           </div>
         </TabItem>
         <TabItem value="back" label="Mặt sau tủ">
           <div style={{ textAlign: 'center', padding: '10px' }}>
             <img src="/img/anh_mat_sau_tu_dieu_toc.jpg" alt="Ảnh mặt sau tủ điều tốc" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
-            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray' }}>Mặt sau tủ điều tốc</p>
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Mặt sau tủ điều tốc</p>
+            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng 0.0m</div>
           </div>
         </TabItem>
       </Tabs>
@@ -50,15 +55,14 @@ Dưới đây là tủ điều khiển, các van điện từ thừa hành, hệ
 
   <TabItem value="oil-accumulator" label="Bình Accu Dầu">
     <div style={{ marginTop: '20px' }}>
-      <h3>Bình Accu Dầu Áp Lực</h3>
+
       <div style={{ display: 'flex', gap: '30px', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '20px' }}>
         <div style={{ flex: '1 1 300px', textAlign: 'center' }}>
           <img src="/img/binh_accu_dau.jpg" alt="Bình accu dầu" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 6px 16px rgba(0,0,0,0.15)', marginBottom: '10px' }} />
-          <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Bình accu dầu áp lực thực tế</em>
+          <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '5px' }}>Bình accu dầu áp lực thực tế</em>
+          <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
         </div>
         <div style={{ flex: '2 2 400px', minWidth: '320px' }}>
-          <h4 style={{ marginBottom: '15px' }}>Thước đo hiển thị mức dầu & Logic bảo vệ DCS</h4>
-          <p>Trên bình Accu dầu áp lực có thước đo hiển thị các mức dầu và gửi tín hiệu về hệ thống DCS giám sát bảo vệ:</p>
           <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '10px' }}>
             <thead>
               <tr style={{ borderBottom: '2px solid var(--ifm-color-emphasis-200)' }}>
@@ -140,8 +144,7 @@ Dưới đây là tủ điều khiển, các van điện từ thừa hành, hệ
 
   <TabItem value="solenoid-valves" label="Các Van Điện Từ">
     <div style={{ marginTop: '20px' }}>
-      <h3>Hệ thống các Van Điện Từ Thừa Hành</h3>
-      <p>Chọn van điện từ bên dưới để xem hình ảnh thực tế, nguyên lý quá trình hoạt động và mạch điện điều khiển chi tiết:</p>
+
       
       <Tabs>
         <TabItem value="van-ba" label="Van BA" default>
@@ -318,20 +321,21 @@ Dưới đây là tủ điều khiển, các van điện từ thừa hành, hệ
 
   <TabItem value="compressor-system" label="Hệ Thống Khí Nén">
     <div style={{ marginTop: '20px' }}>
-      <h3>Ảnh thực tế Hệ thống Khí nén</h3>
-      <p>Sử dụng các tab bên dưới để chuyển đổi giữa các góc nhìn của hệ thống khí nén:</p>
+
       
       <Tabs>
         <TabItem value="compressor-eq" label="Hệ thống khí nén" default>
           <div style={{ textAlign: 'center', padding: '10px' }}>
             <img src="/img/he_thong_khi_nen.jpg" alt="Hệ thống khí nén" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
-            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray' }}>Hệ thống khí nén thực tế</p>
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Hệ thống khí nén thực tế</p>
+            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
           </div>
         </TabItem>
         <TabItem value="compressor-panel" label="Bảng điều khiển">
           <div style={{ textAlign: 'center', padding: '10px' }}>
             <img src="/img/bang_dieu_khien_he_thong_khi_nen.jpg" alt="Bảng điều khiển hệ thống khí nén" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
-            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray' }}>Bảng điều khiển hệ thống khí nén thực tế</p>
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Bảng điều khiển hệ thống khí nén thực tế</p>
+            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
           </div>
         </TabItem>
       </Tabs>
@@ -340,10 +344,11 @@ Dưới đây là tủ điều khiển, các van điện từ thừa hành, hệ
 
   <TabItem value="globe-valve" label="Van Cầu">
     <div style={{ marginTop: '20px', textAlign: 'center' }}>
-      <h3>Ảnh thực tế Van Cầu</h3>
+
       <div style={{ maxWidth: '600px', margin: '0 auto', padding: '10px' }}>
         <img src="/img/van_cau.png" alt="Van cầu" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 6px 16px rgba(0,0,0,0.15)', marginBottom: '10px' }} />
-        <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Van cầu thực tế</em>
+        <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '5px' }}>Van cầu thực tế</em>
+        <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
       </div>
     </div>
   </TabItem>

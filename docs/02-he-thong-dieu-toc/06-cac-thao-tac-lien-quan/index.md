@@ -2,11 +2,13 @@
 sidebar_position: 1
 title: CÁC THAO TÁC LIÊN QUAN
 slug: cac-thao-tac-lien-quan
+pagination_prev: null
+pagination_next: null
 ---
 
 # ⚙️ CÁC THAO TÁC LIÊN QUAN
 
-## 📂 Tài liệu Hướng dẫn
+## Tài liệu Hướng dẫn
 
 | Tên quy trình / Hướng dẫn | Nội dung chi tiết | Thao tác |
 | :--- | :--- | :---: |

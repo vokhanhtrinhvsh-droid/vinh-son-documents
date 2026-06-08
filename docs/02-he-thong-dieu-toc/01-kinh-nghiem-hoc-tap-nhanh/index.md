@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: KINH NGHIỆM HỌC TẬP NHANH
 slug: kinh-nghiem-hoc-tap-nhanh
+pagination_prev: null
+pagination_next: null
 ---
 
 # 💡 KINH NGHIỆM HỌC TẬP NHANH
@@ -49,9 +51,9 @@ slug: kinh-nghiem-hoc-tap-nhanh
 
 ---
 
-## 📂 Tài liệu Kinh nghiệm Học tập
+## Tài liệu Kinh nghiệm Học tập
 
 | Tên tài liệu | Nội dung chi tiết | Thao tác |
 | :--- | :--- | :---: |
-| **Hướng dẫn điều tốc** | Slide bài giảng hướng dẫn học tập nhanh hệ thống điều tốc | [📥 Tải về](/documents/he-thong-dieu-toc/kinh-nghiem-hoc-tap-nhanh/FILE_20220402_105803_HUONG-DAN-DIEU-TOC.pptx) |
+| **Hướng dẫn điều tốc** | Slide bài giảng hướng dẫn đọc bản vẽ nhị thứ Hệ thống Điều Tốc | [📥 Tải về](/documents/he-thong-dieu-toc/kinh-nghiem-hoc-tap-nhanh/FILE_20220402_105803_HUONG-DAN-DIEU-TOC.pptx) |
 

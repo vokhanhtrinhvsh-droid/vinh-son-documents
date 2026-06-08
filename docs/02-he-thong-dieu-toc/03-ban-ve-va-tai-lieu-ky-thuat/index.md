@@ -2,11 +2,13 @@
 sidebar_position: 1
 title: BẢN VẼ VÀ TÀI LIỆU KỸ THUẬT
 slug: ban-ve-va-tai-lieu-ky-thuat
+pagination_prev: null
+pagination_next: null
 ---
 
 # 📋 BẢN VẼ VÀ TÀI LIỆU KỸ THUẬT
 
-## 1. 📂 Sơ đồ & Bản vẽ Điều tốc
+## 1. Sơ đồ & Bản vẽ Điều tốc
 
 | Tên tài liệu / Bản vẽ | Nội dung chi tiết | Thao tác |
 | :--- | :--- | :---: |
@@ -17,7 +19,7 @@ slug: ban-ve-va-tai-lieu-ky-thuat
 
 ---
 
-## 2. 📂 Mạch Logic & Đường đi Logic
+## 2. Mạch Logic & Đường đi Logic
 
 | Tên tài liệu / Bản vẽ | Nội dung chi tiết | Thao tác |
 | :--- | :--- | :---: |
@@ -28,7 +30,7 @@ slug: ban-ve-va-tai-lieu-ky-thuat
 
 ---
 
-## 3. 📂 Tài liệu Kỹ thuật Bộ điều khiển AK1703
+## 3. Tài liệu Kỹ thuật Bộ điều khiển AK1703
 
 | Tên tài liệu / Hướng dẫn | Nội dung chi tiết | Thao tác |
 | :--- | :--- | :---: |

@@ -2,15 +2,17 @@
 sidebar_position: 1
 title: CÁC SỰ CỐ ĐÃ XẢY RA
 slug: cac-su-co-da-xay-ra
+pagination_prev: null
+pagination_next: null
 ---
 
 # 🚨 CÁC SỰ CỐ ĐÃ XẢY RA
 
-Tổng hợp các phương án xử lý sự cố thực tế và các kịch bản diễn tập sự cố hệ thống điều tốc định kỳ tại nhà máy.
+
 
 ---
 
-## 1. 📂 Phương án Xử lý Sự cố Thực tế
+## 1. Phương án Xử lý Sự cố Thực tế
 
 | Tên tài liệu / Phương án | Nội dung chi tiết | Thao tác |
 | :--- | :--- | :---: |
@@ -18,7 +20,7 @@ Tổng hợp các phương án xử lý sự cố thực tế và các kịch b�
 
 ---
 
-## 2. 📂 Kịch bản Diễn tập Sự cố Định kỳ
+## 2. Kịch bản Diễn tập Sự cố Định kỳ
 
 | Tên tài liệu / Kịch bản | Nội dung chi tiết | Thao tác |
 | :--- | :--- | :---: |
