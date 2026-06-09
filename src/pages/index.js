@@ -19,7 +19,7 @@ export default function Home() {
           <div className="hero-buttons">
             <Link
               className="button button--secondary button--lg btn-hero-primary"
-              to="/docs/intro">
+              to="/docs/he-thong-to-may">
               📂 Vào Kho Tài Liệu
             </Link>
             <a
@@ -35,7 +35,7 @@ export default function Home() {
       <section className="stats-banner">
         <div className="stats-grid">
           <div className="stat-item">
-            <span className="stat-number">5/5</span>
+            <span className="stat-number">6</span>
             <span className="stat-label">Hệ thống cốt lõi</span>
           </div>
           <div className="stat-item">
@@ -57,10 +57,9 @@ export default function Home() {
           <div className="categories-grid">
             {/* 1. Hệ thống Tổ máy */}
             <div className="category-card">
-              <span className="category-icon" role="img" aria-label="turbine">🌀</span>
               <h3 className="category-title">Hệ thống Tổ máy</h3>
               <p className="category-description">
-                Thông số kỹ thuật chi tiết tuabin Francis, máy phát điện đồng bộ H1-H2, hệ thống nhiệt độ giới hạn và quy trình khởi động hòa lưới tự động qua DCS.
+                Thông số kỹ thuật, quy trình vận hành và tài liệu liên quan đến tổ máy phát điện.
               </p>
               <Link className="category-link" to="/docs/he-thong-to-may">
                 Xem tài liệu <span>→</span>
@@ -69,7 +68,6 @@ export default function Home() {
 
             {/* 2. Hệ thống Điều tốc */}
             <div className="category-card">
-              <span className="category-icon" role="img" aria-label="governor">🎚️</span>
               <h3 className="category-title">Hệ thống Điều tốc</h3>
               <p className="category-description">
                 Tài liệu về bộ điều tốc điện - thủy lực kỹ thuật số PLC, trạm dầu tích năng áp lực 4.0 MPa và hướng dẫn vận hành, xử lý khẩn cấp sự cố sụt áp dầu.
@@ -81,34 +79,42 @@ export default function Home() {
 
             {/* 3. Hệ thống Kích từ */}
             <div className="category-card">
-              <span className="category-icon" role="img" aria-label="excitation">⚡</span>
               <h3 className="category-title">Hệ thống Kích từ</h3>
               <p className="category-description">
-                Cấu trúc hệ thống kích từ tĩnh, nguyên lý tự động điều áp kỹ thuật số AVR và quy trình bảo vệ chạm đất rotor máy phát điện (64R).
+                Tài liệu kỹ thuật và quy trình liên quan đến hệ thống kích từ tổ máy phát điện.
               </p>
               <Link className="category-link" to="/docs/he-thong-kich-tu">
                 Xem tài liệu <span>→</span>
               </Link>
             </div>
 
-            {/* 4. Hệ thống Trạm 110kV */}
+            {/* 4. Hệ thống Tự dùng */}
             <div className="category-card">
-              <span className="category-icon" role="img" aria-label="substation">🗼</span>
+              <h3 className="category-title">Hệ thống Tự dùng</h3>
+              <p className="category-description">
+                Tài liệu, thông số và quy trình vận hành hệ thống tự dùng xoay chiều và một chiều nhà máy.
+              </p>
+              <Link className="category-link" to="/docs/he-thong-tu-dung">
+                Xem tài liệu <span>→</span>
+              </Link>
+            </div>
+
+            {/* 5. Hệ thống Trạm 110kV */}
+            <div className="category-card">
               <h3 className="category-title">Hệ thống Trạm 110kV</h3>
               <p className="category-description">
-                Thông số máy biến áp lực chính T1/T2, máy cắt khí SF6 sân phân phối 110kV và sơ đồ cấu hình bảo vệ rơ-le (87T, 21, 87L).
+                Tài liệu kỹ thuật, thông số máy biến áp, máy cắt và sơ đồ cấu hình bảo vệ rơ-le sân phân phối 110kV.
               </p>
               <Link className="category-link" to="/docs/he-thong-tram-110kv">
                 Xem tài liệu <span>→</span>
               </Link>
             </div>
 
-            {/* 5. Hệ thống 1 chiều */}
+            {/* 6. Hệ thống 1 chiều */}
             <div className="category-card">
-              <span className="category-icon" role="img" aria-label="dc-battery">🔋</span>
               <h3 className="category-title">Hệ thống 1 chiều</h3>
               <p className="category-description">
-                Hướng dẫn kỹ thuật giàn ắc quy chì-axit dự phòng 220VDC điều khiển, tủ sạc Chloride thông minh và quy trình dò tìm chạm đất DC thủ công.
+                Tài liệu giàn ắc quy, hệ thống sạc và quy trình kiểm tra chạm đất nguồn một chiều DC.
               </p>
               <Link className="category-link" to="/docs/he-thong-1-chieu">
                 Xem tài liệu <span>→</span>

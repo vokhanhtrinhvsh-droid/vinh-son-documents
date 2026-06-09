@@ -1,9 +1,4 @@
 {
-  "label": "Hệ thống Kích từ",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "slug": "he-thong-kich-tu",
-    "description": "Các tài liệu về hệ thống kích từ tĩnh, nguyên lý tự động điều áp AVR, tủ kích từ và các quy trình bảo vệ kích từ."
-  }
+  "label": "HỆ THỐNG KÍCH TỪ",
+  "position": 3
 }

@@ -86,9 +86,9 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
+        disableSwitch: true,
       },
       navbar: {
-        title: 'Thủy điện Vĩnh Sơn',
         logo: {
           alt: 'Vinh Son Hydroelectric Logo',
           src: 'img/vinh_son_logo.png',
@@ -99,6 +99,11 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Kho Tài Liệu',
+          },
+          {
+            type: 'html',
+            position: 'right',
+            value: '<span class="navbar-title-right">Thủy điện Vĩnh Sơn</span>',
           },
         ],
       },
@@ -123,8 +128,12 @@ const config = {
             ],
           },
           {
-            title: 'Trạm phân phối & Nguồn',
+            title: 'Trạm & Nguồn tự dùng',
             items: [
+              {
+                label: 'Hệ thống Tự dùng',
+                to: '/docs/he-thong-tu-dung',
+              },
               {
                 label: 'Hệ thống Trạm 110kV',
                 to: '/docs/he-thong-tram-110kv',

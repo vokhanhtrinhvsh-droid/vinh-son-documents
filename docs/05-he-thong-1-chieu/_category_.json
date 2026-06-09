@@ -1,9 +1,0 @@
-{
-  "label": "Hệ thống 1 chiều",
-  "position": 6,
-  "link": {
-    "type": "generated-index",
-    "slug": "he-thong-1-chieu",
-    "description": "Các tài liệu về nguồn điện một chiều DC dự phòng, giàn ắc quy điều khiển 220VDC, tủ sạc tự động và quy trình giám sát chạm đất nguồn DC."
-  }
-}
