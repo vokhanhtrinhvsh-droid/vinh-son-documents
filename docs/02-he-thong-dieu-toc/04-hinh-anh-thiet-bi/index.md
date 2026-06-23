@@ -53,6 +53,41 @@ import TabItem from '@theme/TabItem';
     </div>
   </TabItem>
 
+  <TabItem value="hydraulic-oil-system" label="Hệ Thống Dầu Thủy Lực">
+    <div style={{ marginTop: '20px' }}>
+      <Tabs>
+        <TabItem value="hydraulic-overview" label="Hệ thống dầu thủy lực" default>
+          <div style={{ textAlign: 'center', padding: '10px' }}>
+            <img src="/img/he_thong_dau_thuy_luc.jpg" alt="Hệ thống dầu thủy lực" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Hệ thống dầu thủy lực thực tế</p>
+            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
+          </div>
+        </TabItem>
+        <TabItem value="isolation-valve-46d" label="Van cách ly 46D">
+          <div style={{ textAlign: 'center', padding: '10px' }}>
+            <img src="/img/van_cach_ly_46d.jpg" alt="Van cách ly 46D" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Van cách ly 46D thực tế</p>
+            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
+          </div>
+        </TabItem>
+        <TabItem value="isolation-valve-30d" label="Van cách ly 30D">
+          <div style={{ textAlign: 'center', padding: '10px' }}>
+            <img src="/img/van_cach_ly_binh_dau_accu_30d.jpg" alt="Van cách ly bình dầu accu 30D" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Van cách ly bình dầu accu 30D thực tế</p>
+            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
+          </div>
+        </TabItem>
+        <TabItem value="heat-exchanger" label="Bộ trao đổi nhiệt">
+          <div style={{ textAlign: 'center', padding: '10px' }}>
+            <img src="/img/bo_trao_doi_nhiet.jpg" alt="Bộ trao đổi nhiệt" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
+            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Bộ trao đổi nhiệt thực tế</p>
+            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
+          </div>
+        </TabItem>
+      </Tabs>
+    </div>
+  </TabItem>
+
   <TabItem value="oil-accumulator" label="Bình Accu Dầu">
     <div style={{ marginTop: '20px' }}>
 
@@ -313,29 +348,6 @@ import TabItem from '@theme/TabItem';
                 <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 (đối với kim phun 1, 4) và A22 (đối với kim phun 2, 3) → cấp điện áp điều khiển tới bộ khếch đại tỷ lệ N01 (kim 1), N11 (kim 2), N12 (kim 3), N03 (kim 4) → cấp dòng điện tới cuộn dây của van BX1/BX2/BX3/BX4 → piston của van BX1/BX2/BX3/BX4 dịch chuyển lên xuống.</li>
               </ul>
             </div>
-          </div>
-        </TabItem>
-      </Tabs>
-    </div>
-  </TabItem>
-
-  <TabItem value="compressor-system" label="Hệ Thống Khí Nén">
-    <div style={{ marginTop: '20px' }}>
-
-      
-      <Tabs>
-        <TabItem value="compressor-eq" label="Hệ thống khí nén" default>
-          <div style={{ textAlign: 'center', padding: '10px' }}>
-            <img src="/img/he_thong_khi_nen.jpg" alt="Hệ thống khí nén" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
-            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Hệ thống khí nén thực tế</p>
-            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
-          </div>
-        </TabItem>
-        <TabItem value="compressor-panel" label="Bảng điều khiển">
-          <div style={{ textAlign: 'center', padding: '10px' }}>
-            <img src="/img/bang_dieu_khien_he_thong_khi_nen.jpg" alt="Bảng điều khiển hệ thống khí nén" style={{ maxWidth: '100%', maxHeight: '600px', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }} />
-            <p style={{ marginTop: '10px', fontStyle: 'italic', color: 'gray', marginBottom: '5px' }}>Bảng điều khiển hệ thống khí nén thực tế</p>
-            <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
           </div>
         </TabItem>
       </Tabs>

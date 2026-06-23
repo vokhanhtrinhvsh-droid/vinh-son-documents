@@ -5,4 +5,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-Nội dung hệ thống tổ máy sẽ được cập nhật sau.
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
