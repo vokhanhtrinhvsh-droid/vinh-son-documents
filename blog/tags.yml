@@ -17,3 +17,18 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+bao-duong:
+  label: Bảo dưỡng
+  permalink: /bao-duong
+  description: Các bài viết về công tác bảo dưỡng định kỳ
+
+to-may-h1:
+  label: Tổ máy H1
+  permalink: /to-may-h1
+  description: Các bài viết liên quan đến Tổ máy H1
+
+ke-hoach:
+  label: Kế hoạch
+  permalink: /ke-hoach
+  description: Các bài viết về kế hoạch công tác và sửa chữa
