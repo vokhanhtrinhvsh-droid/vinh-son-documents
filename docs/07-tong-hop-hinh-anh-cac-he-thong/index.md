@@ -1,6 +1,6 @@
 ---
-title: TỔNG HỢP HÌNH ẢNH CỦA CÁC HỆ THỐNG
-slug: /tong-hop-hinh-anh-cua-cac-he-thong
+title: TỔNG HỢP HÌNH ẢNH CÁC HỆ THỐNG
+slug: /tong-hop-hinh-anh-cac-he-thong
 pagination_prev: null
 pagination_next: null
 ---

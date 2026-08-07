@@ -127,7 +127,7 @@ export default function Home() {
               <p className="category-description">
                 Tổng hợp hình ảnh thực tế các thiết bị tầng hầm bánh xe công tác và buồng ổ hướng Tuabin.
               </p>
-              <Link className="category-link" to="/docs/tong-hop-hinh-anh-cua-cac-he-thong">
+              <Link className="category-link" to="/docs/tong-hop-hinh-anh-cac-he-thong">
                 Xem tài liệu <span>→</span>
               </Link>
             </div>
