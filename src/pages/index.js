@@ -120,6 +120,17 @@ export default function Home() {
                 Xem tài liệu <span>→</span>
               </Link>
             </div>
+
+            {/* 7. Tổng hợp hình ảnh các hệ thống */}
+            <div className="category-card">
+              <h3 className="category-title">Tổng hợp hình ảnh các hệ thống</h3>
+              <p className="category-description">
+                Tổng hợp hình ảnh thực tế các thiết bị tầng hầm bánh xe công tác và buồng ổ hướng Tuabin.
+              </p>
+              <Link className="category-link" to="/docs/tong-hop-hinh-anh-cua-cac-he-thong">
+                Xem tài liệu <span>→</span>
+              </Link>
+            </div>
           </div>
         </div>
       </main>
