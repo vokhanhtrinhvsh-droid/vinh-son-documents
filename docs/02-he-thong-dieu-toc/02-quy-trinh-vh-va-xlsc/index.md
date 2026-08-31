@@ -8,9 +8,15 @@ pagination_next: null
 
 # 📘 QUY TRÌNH VH VÀ XLSC
 
-| Tên quy trình | Nội dung chi tiết | Thao tác |
-| :--- | :--- | :---: |
-| **Quy trình Điều tốc NMVS.pdf** | Quy trình vận hành và xử lý sự cố hệ thống điều tốc nhà máy thủy điện Vĩnh Sơn | [📥 Tải về](/documents/he-thong-dieu-toc/quy-trinh-vh-va-xlsc/quy_trinh_dieu_toc_nmvs.pdf) |
+<div style={{ marginTop: '20px', marginBottom: '30px' }}>
+  <iframe
+    src="/documents/he-thong-dieu-toc/quy-trinh-vh-va-xlsc/quy_trinh_dieu_toc_nmvs.pdf"
+    width="100%"
+    height="650px"
+    style={{ border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}
+    title="Quy trình Điều tốc NMVS.pdf"
+  />
+</div>
 
 ---
 

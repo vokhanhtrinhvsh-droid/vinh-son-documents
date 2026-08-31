@@ -455,3 +455,611 @@
   user-select: none;
 }
 
+/* Hide second-level (nested) items and caret buttons in the docs sidebar */
+.theme-doc-sidebar-item-category-level-1 > .menu__list,
+.theme-doc-sidebar-item-category-level-1 .menu__caret {
+  display: none !important;
+}
+
+/* Hide breadcrumbs as requested by user */
+.theme-doc-breadcrumbs,
+nav[aria-label="breadcrumbs"] {
+  display: none !important;
+}
+
+/* Single row industrial navy blue sub-navbar bar matching reference sample */
+.docs-tabs-wrapper {
+  margin: 0.2rem 0 1.8rem 0;
+  padding: 0 !important;
+  background: #113f7a !important;
+  border-top: 3px solid #e2b13c !important;
+  border-bottom: 3px solid #e2b13c !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0px !important;
+  box-shadow: 0 4px 14px rgba(17, 63, 122, 0.25);
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .docs-tabs-wrapper {
+  background: #0e386e !important;
+  border-top: 3px solid #e2b13c !important;
+  border-bottom: 3px solid #e2b13c !important;
+}
+
+.docs-tabs-container {
+  display: grid;
+  gap: 0px !important;
+  width: 100%;
+}
+
+/* Dynamic Grid columns on Desktop to force single row */
+@media (min-width: 997px) {
+  .docs-tabs-cols-7 { grid-template-columns: repeat(7, 1fr); }
+  .docs-tabs-cols-8 { grid-template-columns: repeat(8, 1fr); }
+  .docs-tabs-cols-9 { grid-template-columns: repeat(9, 1fr); }
+  .docs-tabs-cols-10 { grid-template-columns: repeat(10, 1fr); }
+}
+
+/* 2 Columns on Tablets and Landscape Mobiles */
+@media (max-width: 996px) and (min-width: 577px) {
+  .docs-tabs-container {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+/* 1 Column on Portrait Mobiles */
+@media (max-width: 576px) {
+  .docs-tabs-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.docs-tab-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.3rem;
+  padding: 0.75rem 0.2rem;
+  background: #113f7a;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0px !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.docs-tab-item:last-child {
+  border-right: none;
+}
+
+.docs-tab-item:hover {
+  background: #0c2f5d;
+  color: #f1c40f !important;
+}
+
+/* Active tab styled with bright Golden Yellow background & dark navy text matching sample image */
+.docs-tab-item.active {
+  transform: translateY(-3px);
+}
+
+/* Responsive adjustment */
+@media (max-width: 996px) {
+  .hero-vinhson {
+    padding: 5.5rem 1.5rem;
+  }
+  .hero-title {
+    font-size: 2.6rem;
+  }
+  .hero-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .stat-number {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-vinhson {
+    padding: 4rem 1rem;
+  }
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.8rem;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    padding: 0 1rem;
+  }
+  .stat-item {
+    padding: 0.5rem 0;
+  }
+  .stat-item:not(:last-child) {
+    border-bottom: 1px dashed var(--vs-card-border);
+  }
+  .stat-number {
+    font-size: 2rem;
+  }
+  .categories-section {
+    padding: 3rem 1.2rem;
+  }
+  .categories-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .category-card {
+    padding: 1.5rem;
+  }
+  .notice-container {
+    padding: 1.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1rem;
+  }
+  .notice-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+  .notice-text {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.7rem;
+  }
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 280px;
+    margin: 0 auto;
+    gap: 0.8rem;
+  }
+  .hero-buttons .button {
+    width: 100%;
+    margin: 0 !important;
+  }
+}
+
+.navbar-title-right {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--ifm-navbar-link-color, var(--ifm-color-emphasis-800));
+  font-family: var(--ifm-font-family-base);
+  margin-right: 0.5rem;
+  user-select: none;
+}
+
+/* Hide second-level (nested) items and caret buttons in the docs sidebar */
+.theme-doc-sidebar-item-category-level-1 > .menu__list,
+.theme-doc-sidebar-item-category-level-1 .menu__caret {
+  display: none !important;
+}
+
+/* Hide breadcrumbs as requested by user */
+.theme-doc-breadcrumbs,
+nav[aria-label="breadcrumbs"] {
+  display: none !important;
+}
+
+/* Single row industrial navy blue sub-navbar bar matching reference sample */
+.docs-tabs-wrapper {
+  margin: 0.2rem 0 1.8rem 0;
+  padding: 0 !important;
+  background: #113f7a !important;
+  border-top: 3px solid #e2b13c !important;
+  border-bottom: 3px solid #e2b13c !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0px !important;
+  box-shadow: 0 4px 14px rgba(17, 63, 122, 0.25);
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .docs-tabs-wrapper {
+  background: #0e386e !important;
+  border-top: 3px solid #e2b13c !important;
+  border-bottom: 3px solid #e2b13c !important;
+}
+
+.docs-tabs-container {
+  display: grid;
+  gap: 0px !important;
+  width: 100%;
+}
+
+/* Dynamic Grid columns on Desktop to force single row */
+@media (min-width: 997px) {
+  .docs-tabs-cols-7 { grid-template-columns: repeat(7, 1fr); }
+  .docs-tabs-cols-8 { grid-template-columns: repeat(8, 1fr); }
+  .docs-tabs-cols-9 { grid-template-columns: repeat(9, 1fr); }
+  .docs-tabs-cols-10 { grid-template-columns: repeat(10, 1fr); }
+}
+
+/* 2 Columns on Tablets and Landscape Mobiles */
+@media (max-width: 996px) and (min-width: 577px) {
+  .docs-tabs-container {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+/* 1 Column on Portrait Mobiles */
+@media (max-width: 576px) {
+  .docs-tabs-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.docs-tab-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.2rem;
+  padding: 0.55rem 0.15rem;
+  background: #113f7a;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0px !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 0.68rem;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  transition: all 0.2s ease;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.docs-tab-item:last-child {
+  border-right: none;
+}
+
+.docs-tab-item:hover {
+  background: #0c2f5d;
+  color: #f1c40f !important;
+}
+
+/* Active tab styled with bright Golden Yellow background & dark navy text matching sample image */
+.docs-tab-item.active {
+  background: #e2b13c !important;
+  color: #0e386e !important;
+  font-weight: 800;
+}
+
+[data-theme='dark'] .docs-tab-item.active {
+  background: #e2b13c !important;
+  color: #041a2f !important;
+  font-weight: 800;
+}
+
+.docs-tab-icon {
+  font-size: 0.95rem;
+  flex-shrink: 0;
+  margin-right: 2px;
+}
+
+.docs-tab-label {
+  font-size: 0.68rem;
+  letter-spacing: -0.1px;
+  text-transform: uppercase !important;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.docs-tab-arrow {
+  font-size: 0.75rem;
+  margin-left: 2px;
+  opacity: 0.85;
+}
+
+/* Dropdown Menu Styles matching reference image sample */
+.docs-tab-item-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.docs-tab-item-wrapper .docs-tab-item {
+  width: 100%;
+  height: 100%;
+}
+
+.docs-tab-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 250px;
+  max-height: 380px;
+  overflow-y: auto;
+  background: #ffffff;
+  border-top: 3px solid #e2b13c;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+  z-index: 1000;
+  padding: 6px 0;
+  animation: fadeInDown 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom scrollbar for dropdown menu */
+.docs-tab-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+.docs-tab-dropdown::-webkit-scrollbar-thumb {
+  background: rgba(17, 63, 122, 0.3);
+  border-radius: 4px;
+}
+.docs-tab-dropdown::-webkit-scrollbar-thumb:hover {
+  background: rgba(17, 63, 122, 0.6);
+}
+
+[data-theme='dark'] .docs-tab-dropdown {
+  background: #1e293b;
+  border-top: 3px solid #e2b13c;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.docs-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 10px 18px;
+  color: #1e293b !important;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  text-transform: none !important;
+  text-align: left;
+  border-left: 3px solid transparent;
+  transition: all 0.18s ease;
+}
+
+[data-theme='dark'] .docs-dropdown-item {
+  color: #f1f5f9 !important;
+}
+
+.docs-dropdown-item:hover {
+  background: #f0f4f8;
+  color: #113f7a !important;
+  border-left-color: #e2b13c;
+  padding-left: 22px;
+}
+
+[data-theme='dark'] .docs-dropdown-item:hover {
+  background: #334155;
+  color: #e2b13c !important;
+  border-left-color: #e2b13c;
+}
+
+.docs-dropdown-bullet {
+  font-size: 0.78rem;
+  flex-shrink: 0;
+}
+
+/* Page-level markdown tabs styling */
+.markdown .tabs-container {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown ul.tabs {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.35rem !important;
+  border-bottom: 2px solid #e2b13c !important;
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.markdown ul.tabs li.tabs__item {
+  background: var(--ifm-color-emphasis-100, #f0f4f8) !important;
+  color: var(--ifm-color-emphasis-800, #1d2731) !important;
+  border-radius: 8px !important;
+  padding: 0.45rem 0.8rem !important;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  border: 1px solid var(--ifm-color-emphasis-300, #cbd5e1) !important;
+  transition: all 0.2s ease !important;
+  cursor: pointer !important;
+}
+
+.markdown ul.tabs li.tabs__item:hover {
+  background: #113f7a !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
+.markdown ul.tabs li.tabs__item--active {
+  background: #113f7a !important;
+  color: #ffffff !important;
+  border-color: #e2b13c !important;
+  box-shadow: 0 4px 12px rgba(17, 63, 122, 0.3) !important;
+}
+
+/* Widen the main content container of docs page to stretch further to the right */
+main[class*="docMainContainer"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+main[class*="docMainContainer"] .container {
+  max-width: 99% !important;
+  width: 99% !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+/* Give main content column maximum space extending to the right edge */
+@media (min-width: 997px) {
+  .row > div.col:not(.col--3) {
+    flex: 1 1 auto !important;
+    max-width: 88% !important;
+    width: 88% !important;
+  }
+  .row > div.col.col--3 {
+    max-width: 12% !important;
+    flex: 0 0 12% !important;
+    padding-left: 0.2rem !important;
+    padding-right: 0.2rem !important;
+  }
+}
+
+/* ==========================================================================
+   Global Table Standardization & Uniform Column Widths Across All Folders
+   ========================================================================== */
+
+.markdown table {
+  width: 100% !important;
+  display: table !important;
+  table-layout: fixed !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1.8rem !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  border: 1px solid var(--ifm-color-emphasis-200, #e2e8f0) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03) !important;
+}
+
+[data-theme='dark'] .markdown table {
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Header Cells styling */
+.markdown table th {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  font-weight: 700 !important;
+  font-size: 0.88rem !important;
+  padding: 12px 16px !important;
+  vertical-align: middle !important;
+  border-bottom: 2px solid #cbd5e1 !important;
+  border-right: 1px solid #e2e8f0 !important;
+  text-align: left;
+}
+
+.markdown table th:last-child {
+  border-right: none !important;
+}
+
+[data-theme='dark'] .markdown table th {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Body Cells styling */
+.markdown table td {
+  padding: 11px 16px !important;
+  font-size: 0.88rem !important;
+  vertical-align: middle !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  border-right: 1px solid #f1f5f9 !important;
+  line-height: 1.5 !important;
+}
+
+.markdown table td:last-child {
+  border-right: none !important;
+}
+
+.markdown table tr:last-child td {
+  border-bottom: none !important;
+}
+
+[data-theme='dark'] .markdown table td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+/* Row Hover effect */
+.markdown table tbody tr {
+  transition: background-color 0.15s ease !important;
+}
+
+.markdown table tbody tr:hover {
+  background-color: rgba(15, 76, 129, 0.04) !important;
+}
+
+[data-theme='dark'] .markdown table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* Uniform Column Widths for 3-Column Tables (Document / Drawing List Tables) */
+.markdown table th:first-child:nth-last-child(3),
+.markdown table td:first-child:nth-last-child(3) {
+  width: 33% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.markdown table th:nth-child(2):nth-last-child(2),
+.markdown table td:nth-child(2):nth-last-child(2) {
+  width: 53% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.markdown table th:nth-child(3):nth-last-child(1),
+.markdown table td:nth-child(3):nth-last-child(1) {
+  width: 14% !important;
+  min-width: 110px !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+}
+
+/* Uniform Column Widths for 2-Column Tables (Parameters / Specification Tables) */
+.markdown table th:first-child:nth-last-child(2),
+.markdown table td:first-child:nth-last-child(2) {
+  width: 18% !important;
+  min-width: 80px !important;
+  text-align: center !important;
+}
+
+.markdown table th:nth-child(2):nth-last-child(1),
+.markdown table td:nth-child(2):nth-last-child(1) {
+  width: 82% !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
