@@ -11,7 +11,7 @@ pagination_next: null
 <div style={{ position: 'relative', display: 'block', maxWidth: '100%', margin: '20px auto', textAlign: 'center' }}>
   <div style={{ position: 'relative', display: 'inline-block', maxWidth: '100%' }}>
     <img 
-      src="/img/kinh_nghiem_hoc_tap_nhanh_ht_to_may.jpg" 
+      src="/img/kinh_nghiem_hoc_tap_nhanh_ht_to_may.webp" 
       alt="Sơ đồ kinh nghiệm học tập nhanh hệ thống tổ máy" 
       style={{ 
         borderRadius: '8px', 

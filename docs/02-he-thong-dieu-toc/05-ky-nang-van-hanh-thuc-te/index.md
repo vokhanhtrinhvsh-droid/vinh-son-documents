@@ -10,7 +10,7 @@ pagination_next: null
 
 ## 1. Quy trình Khởi động Hệ thống Dầu Thủy lực Tự động
 
-![Quy trình khởi động hệ thống dầu thủy lực tự động](/documents/he-thong-dieu-toc/cac-thao-tac-lien-quan/hinh_anh_khoi_dong_he_thong_dau_thuy_luc.png)
+![Quy trình khởi động hệ thống dầu thủy lực tự động](/documents/he-thong-dieu-toc/cac-thao-tac-lien-quan/hinh_anh_khoi_dong_he_thong_dau_thuy_luc.webp)
 
 ---
 
@@ -27,7 +27,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_1.jpg" alt="Khởi động hệ thống dầu thủy lực bằng tay - Ảnh 1" style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_1.webp" alt="Khởi động hệ thống dầu thủy lực bằng tay - Ảnh 1" style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 1: Xoay vị trí khóa bơm dầu sang vị trí Test để khởi động bơm dầu thủy lực AE1 hoặc AE2</em>
   </div>
@@ -41,7 +41,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_2.jpg" alt="Khởi động hệ thống dầu thủy lực bằng tay - Ảnh 2" style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_2.webp" alt="Khởi động hệ thống dầu thủy lực bằng tay - Ảnh 2" style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 2: Tháo rời 2 nắp chụp điều khiển và dùng tuavit đẩy chốt van BB qua vị trí OPEN</em>
   </div>
@@ -62,7 +62,7 @@ pagination_next: null
                e.currentTarget.style.transform = 'translateY(0)';
                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
              }}>
-          <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_3.jpg" alt="Thao tác van BA tổ máy H1" style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
+          <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_3.webp" alt="Thao tác van BA tổ máy H1" style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
         </div>
         <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>
           <strong>Ảnh 3:</strong> Tháo cáp điều khiển và gắn ngàm kẹp vào van BA tổ máy H1
@@ -79,7 +79,7 @@ pagination_next: null
                e.currentTarget.style.transform = 'translateY(0)';
                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
              }}>
-          <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_4.jpg" alt="Chi tiết chốt van BA tổ máy H1" style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
+          <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_4.webp" alt="Chi tiết chốt van BA tổ máy H1" style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
         </div>
         <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>
           <strong>Ảnh 3.1 (Chi tiết chốt van):</strong> Phóng to vị trí chốt van BA tổ máy H1 để kiểm tra/vận hành
@@ -104,7 +104,7 @@ pagination_next: null
                e.currentTarget.style.transform = 'translateY(0)';
                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
              }}>
-          <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_5.jpg" alt="Thao tác van BA tổ máy H2" style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
+          <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_5.webp" alt="Thao tác van BA tổ máy H2" style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
         </div>
         <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>
           <strong>Ảnh 4:</strong> Tháo cáp điều khiển và gắn ngàm chuyên dụng vào van BA tổ máy H2
@@ -121,7 +121,7 @@ pagination_next: null
                e.currentTarget.style.transform = 'translateY(0)';
                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
              }}>
-          <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_6.jpg" alt="Chi tiết chốt van BA tổ máy H2" style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
+          <img src="/img/khoi_dong_dau_thuy_luc_bang_tay_6.webp" alt="Chi tiết chốt van BA tổ máy H2" style={{ width: '100%', height: '400px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
         </div>
         <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>
           <strong>Ảnh 4.1 (Chi tiết chốt van):</strong> Phóng to vị trí chốt van BA tổ máy H2 để kiểm tra/vận hành
@@ -146,7 +146,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/dong_mo_kim_phun_1.jpg" alt="Đóng mở kim phun bằng tay - Ảnh 1" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/dong_mo_kim_phun_1.webp" alt="Đóng mở kim phun bằng tay - Ảnh 1" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 1: Chuyển khóa cấp lệnh tủ điều tốc từ REMOTE sang LOCAL; Chọn mục Turbine controller</em>
   </div>
@@ -160,7 +160,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/dong_mo_kim_phun_2.jpg" alt="Đóng mở kim phun bằng tay - Ảnh 2" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/dong_mo_kim_phun_2.webp" alt="Đóng mở kim phun bằng tay - Ảnh 2" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 2: Chọn mũi tên xuống</em>
   </div>
@@ -174,7 +174,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/dong_mo_kim_phun_3.jpg" alt="Đóng mở kim phun bằng tay - Ảnh 3" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/dong_mo_kim_phun_3.webp" alt="Đóng mở kim phun bằng tay - Ảnh 3" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 3: Chọn mục Pos.Circuit Needle *</em>
   </div>
@@ -188,7 +188,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/dong_mo_kim_phun_4.jpg" alt="Đóng mở kim phun bằng tay - Ảnh 4" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/dong_mo_kim_phun_4.webp" alt="Đóng mở kim phun bằng tay - Ảnh 4" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 4: Chọn hình bàn tay để chuyển qua Manual, Chọn mục Yes</em>
   </div>
@@ -202,7 +202,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/dong_mo_kim_phun_5.jpg" alt="Đóng mở kim phun bằng tay - Ảnh 5" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/dong_mo_kim_phun_5.webp" alt="Đóng mở kim phun bằng tay - Ảnh 5" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 5: Đặt giá trị mở kim phun tại Setpoint (Manual), ví dụ kim phun 1 Set mở 20%</em>
   </div>
@@ -216,7 +216,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/dong_mo_kim_phun_6.jpg" alt="Đóng mở kim phun bằng tay - Ảnh 6" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/dong_mo_kim_phun_6.webp" alt="Đóng mở kim phun bằng tay - Ảnh 6" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 6: Kiểm tra đồng hồ cơ Position Needle 1 chỉ 20%</em>
   </div>
@@ -230,7 +230,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/dong_mo_kim_phun_7.jpg" alt="Đóng mở kim phun bằng tay - Ảnh 7" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/dong_mo_kim_phun_7.webp" alt="Đóng mở kim phun bằng tay - Ảnh 7" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 7: Set kim phun 1 mở 50%, kiểm tra đồng hồ cơ Position Needle 1 chỉ 50%</em>
   </div>
@@ -244,7 +244,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/dong_mo_kim_phun_8.jpg" alt="Đóng mở kim phun bằng tay - Ảnh 8" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/dong_mo_kim_phun_8.webp" alt="Đóng mở kim phun bằng tay - Ảnh 8" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 8: Khi dừng test kim, Set giá trị tại Setpoint (Manual)=0%; Chuyển khóa cấp lệnh tủ điều tốc từ LOCAL sang REMOTE</em>
   </div>
@@ -265,7 +265,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/chon_kenh_htdt_1.jpg" alt="Chọn kênh hệ thống Điều tốc - Ảnh 1" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/chon_kenh_htdt_1.webp" alt="Chọn kênh hệ thống Điều tốc - Ảnh 1" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 1: Chuyển khóa cấp lệnh tủ điều tốc từ REMOTE sang LOCAL</em>
   </div>
@@ -279,7 +279,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/chon_kenh_htdt_2.jpg" alt="Chọn kênh hệ thống Điều tốc - Ảnh 2" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/chon_kenh_htdt_2.webp" alt="Chọn kênh hệ thống Điều tốc - Ảnh 2" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 2: Chọn mục: Hệ thống điều khiển, sau đó chọn CPU cần Set</em>
   </div>
@@ -293,7 +293,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/chon_kenh_htdt_3.jpg" alt="Chọn kênh hệ thống Điều tốc - Ảnh 3" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/chon_kenh_htdt_3.webp" alt="Chọn kênh hệ thống Điều tốc - Ảnh 3" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 3: Chọn Yes</em>
   </div>
@@ -314,7 +314,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/chon_kim_uu_tien_1.jpg" alt="Chọn kim ưu tiên - Ảnh 1" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/chon_kim_uu_tien_1.webp" alt="Chọn kim ưu tiên - Ảnh 1" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 1: Chuyển khóa cấp lệnh tủ điều tốc từ REMOTE sang LOCAL; Chọn mục Turbine controller</em>
   </div>
@@ -328,7 +328,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/chon_kim_uu_tien_2.jpg" alt="Chọn kim ưu tiên - Ảnh 2" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/chon_kim_uu_tien_2.webp" alt="Chọn kim ưu tiên - Ảnh 2" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 2: Chọn mũi tên xuống</em>
   </div>
@@ -342,7 +342,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/chon_kim_uu_tien_3.jpg" alt="Chọn kim ưu tiên - Ảnh 3" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/chon_kim_uu_tien_3.webp" alt="Chọn kim ưu tiên - Ảnh 3" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 3: Chọn mục Needle Selection</em>
   </div>
@@ -356,7 +356,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/chon_kim_uu_tien_4.jpg" alt="Chọn kim ưu tiên - Ảnh 4" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/chon_kim_uu_tien_4.webp" alt="Chọn kim ưu tiên - Ảnh 4" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 4: Chọn mục Priority Needle *</em>
   </div>
@@ -370,7 +370,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/chon_kim_uu_tien_5.jpg" alt="Chọn kim ưu tiên - Ảnh 5" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+      <img src="/img/chon_kim_uu_tien_5.webp" alt="Chọn kim ưu tiên - Ảnh 5" style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 5: Chọn Yes</em>
   </div>
@@ -391,7 +391,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/hieu_chinh_hoi_tiep_kim_phun_1.jpg" alt="Hiệu chỉnh giá trị hồi tiếp của kim phun - Ảnh 1" style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
+      <img src="/img/hieu_chinh_hoi_tiep_kim_phun_1.webp" alt="Hiệu chỉnh giá trị hồi tiếp của kim phun - Ảnh 1" style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 1: Chuyển khóa cấp lệnh tủ điều tốc từ REMOTE sang LOCAL và chọn mục Turbine Controller</em>
   </div>
@@ -405,7 +405,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/hieu_chinh_hoi_tiep_kim_phun_2.jpg" alt="Hiệu chỉnh giá trị hồi tiếp của kim phun - Ảnh 2" style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
+      <img src="/img/hieu_chinh_hoi_tiep_kim_phun_2.webp" alt="Hiệu chỉnh giá trị hồi tiếp của kim phun - Ảnh 2" style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 2: Click vào nút mũi tên xuống ở góc dưới bên phải màn hình</em>
   </div>
@@ -419,7 +419,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/hieu_chinh_hoi_tiep_kim_phun_3.jpg" alt="Hiệu chỉnh giá trị hồi tiếp của kim phun - Ảnh 3" style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
+      <img src="/img/hieu_chinh_hoi_tiep_kim_phun_3.webp" alt="Hiệu chỉnh giá trị hồi tiếp của kim phun - Ảnh 3" style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 3: Chọn mục Pos. Circuit Needle 1</em>
   </div>
@@ -433,7 +433,7 @@ pagination_next: null
            e.currentTarget.style.transform = 'translateY(0)';
            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
          }}>
-      <img src="/img/hieu_chinh_hoi_tiep_kim_phun_4.jpg" alt="Hiệu chỉnh giá trị hồi tiếp của kim phun - Ảnh 4" style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
+      <img src="/img/hieu_chinh_hoi_tiep_kim_phun_4.webp" alt="Hiệu chỉnh giá trị hồi tiếp của kim phun - Ảnh 4" style={{ width: '100%', height: '350px', objectFit: 'contain', display: 'block', backgroundColor: 'var(--ifm-background-surface-color)' }} />
     </div>
     <em style={{ fontSize: '0.85em', display: 'block', color: 'gray', marginTop: '8px', lineHeight: '1.4' }}>Ảnh 4: Công thức: (DE_INPUT + DE_OFFSET) X DE_RANGE = DE_ACTUAL VALUE . Khi hiệu chỉnh giá trị kim phun của tổ máy H1 chỉ hiệu chỉnh ở mục ô số 2 (DE_OFFSET) và mục ô số 3 (DE_RANGE) đảm bảo giá trị DE_ACTUAL VALUE phù hợp với độ mở kim thực tế</em>
   </div>
@@ -445,7 +445,7 @@ pagination_next: null
 
 <div style={{ textAlign: 'center', margin: '20px 0' }}>
   <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-    <img src="/img/nap_khi_accu_h2.png" alt="Nạp khí bình Accu H2" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 6px 16px rgba(0,0,0,0.15)', marginBottom: '10px' }} />
+    <img src="/img/nap_khi_accu_h2.webp" alt="Nạp khí bình Accu H2" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 6px 16px rgba(0,0,0,0.15)', marginBottom: '10px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray' }}>Ảnh hướng dẫn nạp khí bình Accu dầu H2</em>
   </div>
 </div>

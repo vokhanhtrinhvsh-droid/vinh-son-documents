@@ -61,7 +61,7 @@
 
 .hero-vinhson {
   padding: 7rem 2rem;
-  background: linear-gradient(135deg, rgba(15, 76, 129, 0.45) 0%, rgba(12, 16, 27, 0.65) 100%), url('/img/vinhson_cover_new.png') no-repeat center center;
+  background: linear-gradient(135deg, rgba(15, 76, 129, 0.45) 0%, rgba(12, 16, 27, 0.65) 100%), url('/img/vinhson_cover_new.webp') no-repeat center center;
   background-size: cover;
   color: #ffffff;
   position: relative;
@@ -72,7 +72,7 @@
 }
 
 [data-theme='dark'] .hero-vinhson {
-  background: linear-gradient(135deg, rgba(4, 26, 47, 0.55) 0%, rgba(12, 16, 27, 0.75) 100%), url('/img/vinhson_cover_new.png') no-repeat center center;
+  background: linear-gradient(135deg, rgba(4, 26, 47, 0.55) 0%, rgba(12, 16, 27, 0.75) 100%), url('/img/vinhson_cover_new.webp') no-repeat center center;
   background-size: cover;
   border-bottom: 4px solid #00adb5;
   box-shadow: 0 4px 20px rgba(0, 173, 181, 0.2);

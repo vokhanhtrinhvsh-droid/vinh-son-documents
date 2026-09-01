@@ -12,7 +12,7 @@ slug: binh-accu-dau
 
 <div style={{ display: 'flex', gap: '30px', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '20px' }}>
   <div style={{ flex: '1 1 300px', textAlign: 'center' }}>
-    <img src="/img/binh_accu_dau.jpg" alt="Bình accu dầu" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 6px 16px rgba(0,0,0,0.15)', marginBottom: '10px' }} />
+    <img src="/img/binh_accu_dau.webp" alt="Bình accu dầu" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 6px 16px rgba(0,0,0,0.15)', marginBottom: '10px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '5px' }}>Bình accu dầu áp lực thực tế</em>
     <div style={{ fontSize: '0.9em', color: 'gray', marginBottom: '10px' }}>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
   </div>

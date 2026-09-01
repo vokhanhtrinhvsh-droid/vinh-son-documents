@@ -83,7 +83,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/docusaurus-social-card.webp',
       colorMode: {
         respectPrefersColorScheme: true,
         disableSwitch: true,
@@ -91,7 +91,7 @@ const config = {
       navbar: {
         logo: {
           alt: 'Vinh Son Hydroelectric Logo',
-          src: 'img/vinh_son_logo.png',
+          src: 'img/vinh_son_logo.webp',
         },
         items: [
           {

@@ -11,7 +11,7 @@ slug: cac-van-dien-tu
 ## Van BA
 <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
   <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_ba.jpg" alt="Van điện từ BA" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+    <img src="/img/van_dien_tu_ba.webp" alt="Van điện từ BA" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BA thực tế</em>
     <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
       <div style={{ marginBottom: '4px' }}>📍 <strong>Vị trí:</strong> Tầng -3.9m</div>
@@ -37,7 +37,7 @@ slug: cac-van-dien-tu
 ## Van BB
 <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
   <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bb.jpg" alt="Van điện từ BB" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+    <img src="/img/van_dien_tu_bb.webp" alt="Van điện từ BB" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BB thực tế</em>
     <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
       <div>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
@@ -62,7 +62,7 @@ slug: cac-van-dien-tu
 ## Van BD
 <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
   <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bd.jpg" alt="Van điện từ BD" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+    <img src="/img/van_dien_tu_bd.webp" alt="Van điện từ BD" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BD thực tế</em>
     <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
       <div>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
@@ -87,7 +87,7 @@ slug: cac-van-dien-tu
 ## Van BF
 <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
   <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bf.jpg" alt="Van điện từ BF" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+    <img src="/img/van_dien_tu_bf.webp" alt="Van điện từ BF" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BF thực tế</em>
     <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
       <div>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
@@ -112,7 +112,7 @@ slug: cac-van-dien-tu
 ## Van BI
 <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
   <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bi.jpg" alt="Van điện từ BI" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+    <img src="/img/van_dien_tu_bi.webp" alt="Van điện từ BI" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BI thực tế</em>
     <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
       <div>📍 <strong>Vị trí:</strong> Tầng -6.9m</div>
@@ -137,7 +137,7 @@ slug: cac-van-dien-tu
 ## Van BW
 <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
   <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bw.jpg" alt="Van điện từ BW" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+    <img src="/img/van_dien_tu_bw.webp" alt="Van điện từ BW" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BW thực tế</em>
     <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
       <div style={{ marginBottom: '4px' }}>📍 <strong>Vị trí:</strong> Tầng -3.9m</div>
@@ -162,7 +162,7 @@ slug: cac-van-dien-tu
 ## Van BX
 <div style={{ display: 'flex', gap: '25px', alignItems: 'flex-start', flexWrap: 'wrap', padding: '15px' }}>
   <div style={{ flex: '1 1 250px', maxWidth: '300px', textAlign: 'center' }}>
-    <img src="/img/van_dien_tu_bx.jpg" alt="Van điện từ BX" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
+    <img src="/img/van_dien_tu_bx.webp" alt="Van điện từ BX" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)', marginBottom: '8px' }} />
     <em style={{ fontSize: '0.9em', display: 'block', color: 'gray', marginBottom: '8px' }}>Van điện từ BX thực tế</em>
     <div style={{ fontSize: '0.85em', textAlign: 'left', padding: '8px 12px', borderRadius: '6px', backgroundColor: 'var(--ifm-background-color)', border: '1px solid var(--ifm-color-emphasis-200)' }}>
       <div style={{ marginBottom: '4px' }}>📍 <strong>Vị trí:</strong> Tầng -3.9m</div>
