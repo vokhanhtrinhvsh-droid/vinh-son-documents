@@ -1,18 +1,15 @@
 ---
 sidebar_position: 1
-title: KINH NGHIỆM HỌC TẬP NHANH
-slug: kinh-nghiem-hoc-tap-nhanh
+title: 1. KINH NGHIỆM HỌC TẬP
+slug: kinh-nghiem-hoc-tap
 pagination_prev: null
 pagination_next: null
 ---
 
-# 💡 KINH NGHIỆM HỌC TẬP NHANH
+import DocCardList from '@theme/DocCardList';
+
+# 💡 KINH NGHIỆM HỌC TẬP
 
 ---
 
-## Tài liệu Kinh nghiệm Học tập
-
-| Tên tài liệu | Nội dung chi tiết | Thao tác |
-| :--- | :--- | :---: |
-| **Chuyên đề hệ thống kích từ Vĩnh Sơn** | Phân tích chi tiết các mạch điện của hệ thống kích từ tại Nhà máy Thủy điện Vĩnh Sơn | [📥 Tải về](/documents/he-thong-kich-tu/kinh-nghiem-hoc-tap-nhanh/chuyen_de_he_thong_kich_tu_vinh_son.pdf) |
-| **Hướng dẫn đọc bản vẽ nhị thứ HT kích từ** | Tài liệu bài giảng hướng dẫn chi tiết phương pháp đọc bản vẽ mạch nhị thứ hệ thống kích từ | [📥 Tải về](/documents/he-thong-kich-tu/kinh-nghiem-hoc-tap-nhanh/huong_dan_doc_ban_ve_nhi_thu_ht_kich_tu.pptx) |
+<DocCardList />

@@ -1,8 +1,15 @@
 ---
-title: HỆ THỐNG TRẠM 110kV
+sidebar_position: 1
+title: HỆ THỐNG TRẠM 110KV
 slug: /he-thong-tram-110kv
 pagination_prev: null
 pagination_next: null
 ---
 
-Nội dung hệ thống trạm 110kV sẽ được cập nhật sau.
+import DocCardList from '@theme/DocCardList';
+
+# 🏢 HỆ THỐNG TRẠM 110KV
+
+---
+
+<DocCardList />

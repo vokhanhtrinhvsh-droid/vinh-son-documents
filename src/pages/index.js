@@ -88,17 +88,6 @@ export default function Home() {
               </Link>
             </div>
 
-            {/* 4. Hệ thống Tự dùng */}
-            <div className="category-card">
-              <h3 className="category-title">Hệ thống Tự dùng</h3>
-              <p className="category-description">
-                Tài liệu, thông số và quy trình vận hành hệ thống tự dùng xoay chiều và một chiều nhà máy.
-              </p>
-              <Link className="category-link" to="/docs/he-thong-tu-dung">
-                Xem tài liệu <span>→</span>
-              </Link>
-            </div>
-
             {/* 5. Hệ thống Trạm 110kV */}
             <div className="category-card">
               <h3 className="category-title">Hệ thống Trạm 110kV</h3>

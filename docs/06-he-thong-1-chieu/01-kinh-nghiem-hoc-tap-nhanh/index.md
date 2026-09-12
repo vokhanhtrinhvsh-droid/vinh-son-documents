@@ -1,11 +1,15 @@
 ---
 sidebar_position: 1
-title: KINH NGHIỆM HỌC TẬP NHANH
-slug: kinh-nghiem-hoc-tap-nhanh
+title: 1. KINH NGHIỆM HỌC TẬP
+slug: kinh-nghiem-hoc-tap
 pagination_prev: null
 pagination_next: null
 ---
 
-# 💡 KINH NGHIỆM HỌC TẬP NHANH
+import DocCardList from '@theme/DocCardList';
 
-Nội dung kinh nghiệm học tập nhanh hệ thống 1 chiều sẽ được cập nhật sau.
+# 💡 KINH NGHIỆM HỌC TẬP
+
+---
+
+<DocCardList />
