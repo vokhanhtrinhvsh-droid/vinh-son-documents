@@ -1219,22 +1219,22 @@ main[class*="docMainContainer"] .container {
 @media (min-width: 769px) {
   .markdown table th:first-child:nth-last-child(3),
   .markdown table td:first-child:nth-last-child(3) {
-    width: 32% !important;
+    width: 30% !important;
     word-wrap: break-word !important;
     overflow-wrap: break-word !important;
   }
 
   .markdown table th:nth-child(2):nth-last-child(2),
   .markdown table td:nth-child(2):nth-last-child(2) {
-    width: 53% !important;
+    width: 50% !important;
     word-wrap: break-word !important;
     overflow-wrap: break-word !important;
   }
 
   .markdown table th:nth-child(3):nth-last-child(1),
   .markdown table td:nth-child(3):nth-last-child(1) {
-    width: 15% !important;
-    min-width: 110px !important;
+    width: 20% !important;
+    min-width: 140px !important;
     text-align: center !important;
     white-space: nowrap !important;
   }
@@ -1309,4 +1309,86 @@ main[class*="docMainContainer"] .container {
 .card [class*='cardDescription'],
 .card__description {
   display: none !important;
+}
+
+/* ==========================================================================
+   Google Drive Professional Action Button in Tables
+   ========================================================================== */
+.btn-drive,
+.markdown table td a[href*="drive.google.com"],
+.markdown table td a[href*="docs.google.com"] {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 7px !important;
+  padding: 5px 13px !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  color: #1a73e8 !important;
+  background: rgba(26, 115, 232, 0.07) !important;
+  border: 1px solid rgba(26, 115, 232, 0.28) !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+  white-space: nowrap !important;
+  cursor: pointer !important;
+}
+
+/* Add Google Drive vector logo before the text */
+.btn-drive::before,
+.markdown table td a[href*="drive.google.com"]::before,
+.markdown table td a[href*="docs.google.com"]::before {
+  content: '' !important;
+  display: inline-block !important;
+  width: 15px !important;
+  height: 15px !important;
+  background: url('/img/google-drive.svg') no-repeat center center !important;
+  background-size: contain !important;
+  flex-shrink: 0 !important;
+}
+
+/* Hide or refine default external link icon */
+.btn-drive svg[class*="iconExternalLink"],
+.markdown table td a[href*="drive.google.com"] svg[class*="iconExternalLink"],
+.markdown table td a[href*="docs.google.com"] svg[class*="iconExternalLink"] {
+  display: none !important;
+}
+
+/* Hover and active states */
+.btn-drive:hover,
+.markdown table td a[href*="drive.google.com"]:hover,
+.markdown table td a[href*="docs.google.com"]:hover {
+  background: rgba(26, 115, 232, 0.16) !important;
+  border-color: #1a73e8 !important;
+  color: #1557b0 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 3px 8px rgba(26, 115, 232, 0.22) !important;
+}
+
+.btn-drive:active,
+.markdown table td a[href*="drive.google.com"]:active,
+.markdown table td a[href*="docs.google.com"]:active {
+  transform: translateY(0) !important;
+  box-shadow: 0 1px 3px rgba(26, 115, 232, 0.2) !important;
+}
+
+/* Dark Mode Theme */
+[data-theme='dark'] .btn-drive,
+[data-theme='dark'] .markdown table td a[href*="drive.google.com"],
+[data-theme='dark'] .markdown table td a[href*="docs.google.com"] {
+  color: #8ab4f8 !important;
+  background: rgba(66, 133, 244, 0.14) !important;
+  border-color: rgba(66, 133, 244, 0.38) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) !important;
+}
+
+[data-theme='dark'] .btn-drive:hover,
+[data-theme='dark'] .markdown table td a[href*="drive.google.com"]:hover,
+[data-theme='dark'] .markdown table td a[href*="docs.google.com"]:hover {
+  background: rgba(66, 133, 244, 0.24) !important;
+  border-color: #8ab4f8 !important;
+  color: #d2e3fc !important;
+  box-shadow: 0 3px 10px rgba(66, 133, 244, 0.35) !important;
 }

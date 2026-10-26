@@ -55,4 +55,4 @@ pagination_next: null
 
 | Tên tài liệu | Nội dung chi tiết | Thao tác |
 | :--- | :--- | :---: |
-| **Hướng dẫn điều tốc** | Slide bài giảng hướng dẫn đọc bản vẽ nhị thứ Hệ thống Điều Tốc | [📥 Tải về](/documents/he-thong-dieu-toc/kinh-nghiem-hoc-tap-nhanh/FILE_20220402_105803_HUONG-DAN-DIEU-TOC.pptx) |
+| **Hướng dẫn điều tốc** | Slide bài giảng hướng dẫn đọc bản vẽ nhị thứ Hệ thống Điều Tốc | [Xem trên Drive](https://docs.google.com/presentation/d/1RcNItxdTjCbP__68fexDxc8RVHpe9mgl/edit?slide=id.p1#slide=id.p1) |
