@@ -28,7 +28,7 @@ pagination_next: null
   <li style={{ marginBottom: 0, lineHeight: '1.6' }}>
     <strong>Câu 6:</strong> Phân tích mạch điều khiển đóng cắt contactor kích từ chính Q01?
     <span style={{ fontSize: '0.9em', color: 'gray', display: 'block', marginTop: '4px' }}>
-      <strong>Trả lời:</strong> 📥 <strong>Tài liệu mẫu:</strong> <a href="/documents/he-thong-kich-tu/tai-lieu-khac/cau_tao__nguyen_ly_va_mach_dieu_khien_dong_cat_contactor_kich_tu_q01.pdf" target="_blank" rel="noopener noreferrer">Cấu tạo nguyên lý & mạch điều khiển contactor Q01.pdf</a>.
+      <strong>Trả lời:</strong> 📥 <strong>Tài liệu mẫu:</strong> <a href="https://drive.google.com/file/d/1Enz2N8zVaKt5z-oJ9MFR0AY1leHV9nNr/view?usp=sharing" target="_blank" rel="noopener noreferrer">Cấu tạo nguyên lý & mạch điều khiển contactor Q01.pdf</a>.
     </span>
   </li>
 </ol>

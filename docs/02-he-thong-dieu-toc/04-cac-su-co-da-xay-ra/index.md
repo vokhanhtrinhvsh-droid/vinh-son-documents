@@ -6,7 +6,7 @@ pagination_prev: null
 pagination_next: null
 ---
 
-# 🚨 CÁC SỰ CỐ ĐÃ XẢY RA
+# 🚨 CÁC SỰ CỐ ĐÃ XẢY RA HỆ THỐNG ĐIỀU TỐC
 
 ---
 

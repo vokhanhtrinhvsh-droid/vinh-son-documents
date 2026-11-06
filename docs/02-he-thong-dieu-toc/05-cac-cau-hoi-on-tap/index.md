@@ -6,9 +6,9 @@ pagination_prev: null
 pagination_next: null
 ---
 
-# ❓ CÁC CÂU HỎI ÔN TẬP
+# ❓ CÁC CÂU HỎI ÔN TẬP HỆ THỐNG ĐIỀU TỐC
 
-:::tip[Câu hỏi ôn tập]
+:::tip[Bộ câu hỏi ôn tập chuyên sâu Hệ thống Điều tốc Vĩnh Sơn]
 <ol style={{ paddingLeft: '20px', margin: 0 }}>
   <li style={{ marginBottom: '14px', lineHeight: '1.6' }}><strong>Câu 1:</strong> Dựa vào bản vẽ dầu thủy lực, hãy trình bày đường đi của dầu thủy lực đi đóng mở kim phun, cánh hướng, van seat hạ lưu, van cầu?</li>
   <li style={{ marginBottom: '14px', lineHeight: '1.6' }}><strong>Câu 2:</strong> Trong quá trình chạy máy và ngừng máy, hệ thống điều tốc sẽ tham gia vào ở bước nào? Phân tích mạch tín hiệu nhị thứ của HT điều tốc trong từng quá trình?</li>
@@ -18,7 +18,7 @@ pagination_next: null
   <li style={{ marginBottom: 0, lineHeight: '1.6' }}>
     <strong>Câu 6:</strong> Dựa vào bản vẽ logic, hãy phân tích các điều kiện cấp điện/ngừng cấp điện cho các van điện từ BI, BA, BD, BF,…?
     <span style={{ fontSize: '0.9em', color: 'gray', display: 'block', marginTop: '4px' }}>
-      <strong>Trả lời:</strong> 📥 <strong>Tài liệu mẫu:</strong> <a href="/documents/he-thong-dieu-toc/cac-cau-hoi-on-tap/lenh_dieu_khien_dong_mo_van_bi.pdf" target="_blank" rel="noopener noreferrer">Phân tích lệnh điều khiển đóng, mở van BI.pdf</a> (Người đọc thực hiện phân tích tương tự cho các van điện từ còn lại).
+      <strong>Trả lời:</strong> 📖 <strong>Tài liệu chi tiết:</strong> <a href="/docs/he-thong-dieu-toc/hinh-anh-thiet-bi#van-bi">Phân tích hoạt động & mạch điều khiển van BI</a> (xem chi tiết tại mục Các Van Điện Từ).
     </span>
   </li>
 </ol>

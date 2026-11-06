@@ -152,7 +152,7 @@ slug: cac-van-dien-tu
     </ul>
     <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
     <ul>
-      <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 → cấp điện áp điều khiển tới bộ khếch đại tỷ lệ N02 → cấp dòng điện tới cuộn dây của van BW → piston của van BW dịch chuyển lên xuống.</li>
+      <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 → cấp điện áp điều khiển tới bộ khuếch đại tỷ lệ N02 → cấp dòng điện tới cuộn dây của van BW → piston của van BW dịch chuyển lên xuống.</li>
     </ul>
   </div>
 </div>
@@ -177,7 +177,7 @@ slug: cac-van-dien-tu
     </ul>
     <h4 style={{ marginTop: '20px' }}>⚡ Mạch điện điều khiển:</h4>
     <ul>
-      <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 (đối với kim phun 1, 4) và A22 (đối với kim phun 2, 3) → cấp điện áp điều khiển tới bộ khếch đại tỷ lệ N01 (kim 1), N11 (kim 2), N12 (kim 3), N03 (kim 4) → cấp dòng điện tới cuộn dây của van BX1/BX2/BX3/BX4 → piston của van BX1/BX2/BX3/BX4 dịch chuyển lên xuống.</li>
+      <li>Bộ điều khiển trong tủ điều tốc → cấp tín hiệu tới modun đầu ra analog A12 (đối với kim phun 1, 4) và A22 (đối với kim phun 2, 3) → cấp điện áp điều khiển tới bộ khuếch đại tỷ lệ N01 (kim 1), N11 (kim 2), N12 (kim 3), N03 (kim 4) → cấp dòng điện tới cuộn dây của van BX1/BX2/BX3/BX4 → piston của van BX1/BX2/BX3/BX4 dịch chuyển lên xuống.</li>
     </ul>
   </div>
 </div>
